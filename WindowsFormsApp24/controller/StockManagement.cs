@@ -5,7 +5,7 @@ using System.Linq;
 //using PLplot;
 using System.Diagnostics;
 
-namespace main
+namespace Main.yonor
 {
 
     public class StockManagement

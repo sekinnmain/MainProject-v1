@@ -32,9 +32,13 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Nustache.Core, Version=1.16.0.10, Culture=neutral, PublicKeyToken=efd6f3d8f76ecd9f, processorArchitecture=MSIL">
+      <HintPath>..\packages\Nustache.1.16.0.10\lib\net20\Nustache.Core.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Core" />
+    <Reference Include="System.ServiceProcess" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -46,122 +50,138 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="controller\Advertisement.cs" />
-    <Compile Include="controller\Dish.cs" />
     <Compile Include="controller\Feedback.cs" />
     <Compile Include="controller\FolderWatcher.cs" />
-    <Compile Include="controller\Mailer.cs" />
-    <Compile Include="controller\MailingList.cs" />
-    <Compile Include="controller\StockManagement.cs" />
-    <Compile Include="controller\User.cs" />
-    <Compile Include="controller\XmlParser.cs" />
-    <Compile Include="controller\WriteXmlFile.cs" />
-    <Compile Include="controller\Employee.cs" />
     <Compile Include="Login Screen\Login Screen\Login Screen\LoginScreen.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Login Screen\Login Screen\Login Screen\LoginScreen.Designer.cs">
       <DependentUpon>LoginScreen.cs</DependentUpon>
     </Compile>
-    <Compile Include="controller\ManagerUser.cs" />
     <Compile Include="Login Screen\Login Screen\Login Screen\obj\Debug\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" />
     <Compile Include="Login Screen\Login Screen\Login Screen\obj\Debug\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" />
     <Compile Include="Login Screen\Login Screen\Login Screen\obj\Debug\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" />
     <Compile Include="Login Screen\Login Screen\Login Screen\Properties\Resources.Designer.cs" />
     <Compile Include="Login Screen\Login Screen\Login Screen\Properties\Settings.Designer.cs" />
-    <Compile Include="controller\RegisteredCustomers.cs" />
     <Compile Include="Login Screen\Login Screen\Login Screen\SignUp.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Login Screen\Login Screen\Login Screen\SignUp.Designer.cs">
       <DependentUpon>SignUp.cs</DependentUpon>
     </Compile>
-    <Compile Include="controller\VipCustomer.cs" />
     <Compile Include="controller\XmlLoader.cs" />
-    <Compile Include="ManagerService\CreateDish.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="ManagerService\CreateDish.designer.cs">
-      <DependentUpon>CreateDish.cs</DependentUpon>
-    </Compile>
-    <Compile Include="ManagerService\CreateUser.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="ManagerService\CreateUser.designer.cs">
-      <DependentUpon>CreateUser.cs</DependentUpon>
-    </Compile>
-    <Compile Include="ManagerService\create_ad.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="ManagerService\create_ad.designer.cs">
-      <DependentUpon>create_ad.cs</DependentUpon>
-    </Compile>
-    <Compile Include="ManagerService\EditUser.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="ManagerService\EditUser.designer.cs">
-      <DependentUpon>EditUser.cs</DependentUpon>
-    </Compile>
-    <Compile Include="ManagerService\Edit_ad.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="ManagerService\Edit_ad.designer.cs">
-      <DependentUpon>Edit_ad.cs</DependentUpon>
-    </Compile>
-    <Compile Include="ManagerService\main_manager_wnd.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="ManagerService\main_manager_wnd.designer.cs">
-      <DependentUpon>main_manager_wnd.cs</DependentUpon>
-    </Compile>
-    <Compile Include="ManagerService\newDish.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="ManagerService\newDish.designer.cs">
-      <DependentUpon>newDish.cs</DependentUpon>
-    </Compile>
     <Compile Include="controller\OrderService.cs" />
     <Compile Include="controller\Pay.cs" />
-    <Compile Include="ManagerService\stam.cs">
+    <Compile Include="ManagerService\AppData.cs">
+      <DependentUpon>AppData.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ManagerService\AppData.Designer.cs">
+      <DependentUpon>AppData.xsd</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="controller\Advertisement.cs" />
+    <Compile Include="controller\Dish.cs" />
+    <Compile Include="controller\Employee.cs" />
+    <Compile Include="controller\Mailer.cs" />
+    <Compile Include="controller\MailingList.cs" />
+    <Compile Include="controller\Manager.cs" />
+    <Compile Include="controller\RegisteredCustomers.cs" />
+    <Compile Include="controller\Serialization.cs" />
+    <Compile Include="controller\StockManagement.cs" />
+    <Compile Include="controller\VipCustomer.cs" />
+    <Compile Include="controller\XmlParser.cs" />
+    <Compile Include="ManagerService\ma_views\CreateDish.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="ManagerService\stam.designer.cs">
+    <Compile Include="ManagerService\ma_views\CreateDish.Designer.cs">
+      <DependentUpon>CreateDish.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ManagerService\ma_views\CreateUser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ManagerService\ma_views\CreateUser.Designer.cs">
+      <DependentUpon>CreateUser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ManagerService\ma_views\create_ad.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ManagerService\ma_views\create_ad.Designer.cs">
+      <DependentUpon>create_ad.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ManagerService\ma_views\EditUser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ManagerService\ma_views\EditUser.Designer.cs">
+      <DependentUpon>EditUser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ManagerService\ma_views\Edit_ad.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ManagerService\ma_views\Edit_ad.Designer.cs">
+      <DependentUpon>Edit_ad.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ManagerService\ma_views\Edit_Dish.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ManagerService\ma_views\Edit_Dish.Designer.cs">
+      <DependentUpon>Edit_Dish.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ManagerService\ma_views\main_manager_wnd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ManagerService\ma_views\main_manager_wnd.Designer.cs">
+      <DependentUpon>main_manager_wnd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ManagerService\ma_views\stam.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ManagerService\ma_views\stam.Designer.cs">
       <DependentUpon>stam.cs</DependentUpon>
     </Compile>
+    <Compile Include="ManagerService\Program_OLD.cs" />
     <Compile Include="Menu\Menu.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Menu\Menu.Designer.cs">
       <DependentUpon>Menu.cs</DependentUpon>
     </Compile>
+    <Compile Include="Menu\Menu1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Menu.resx</DependentUpon>
+    </Compile>
     <Compile Include="ProgramMain.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="ManagerService\CreateDish.resx">
+    <Compile Include="Server\ServerOrderService.cs" />
+    <EmbeddedResource Include="ManagerService\ma_views\CreateDish.resx">
       <DependentUpon>CreateDish.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="ManagerService\CreateUser.resx">
+    <EmbeddedResource Include="ManagerService\ma_views\CreateUser.resx">
       <DependentUpon>CreateUser.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="ManagerService\create_ad.resx">
+    <EmbeddedResource Include="ManagerService\ma_views\create_ad.resx">
       <DependentUpon>create_ad.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="ManagerService\EditUser.resx">
+    <EmbeddedResource Include="ManagerService\ma_views\EditUser.resx">
       <DependentUpon>EditUser.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="ManagerService\Edit_ad.resx">
+    <EmbeddedResource Include="ManagerService\ma_views\Edit_ad.resx">
       <DependentUpon>Edit_ad.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="ManagerService\main_manager_wnd.resx">
+    <EmbeddedResource Include="ManagerService\ma_views\Edit_Dish.resx">
+      <DependentUpon>Edit_Dish.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ManagerService\ma_views\main_manager_wnd.resx">
       <DependentUpon>main_manager_wnd.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="ManagerService\newDish.resx">
-      <DependentUpon>newDish.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="ManagerService\stam.resx">
+    <EmbeddedResource Include="ManagerService\ma_views\stam.resx">
       <DependentUpon>stam.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Menu\Menu.resx">
       <DependentUpon>Menu.cs</DependentUpon>
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>Menu1.Designer.cs</LastGenOutput>
     </EmbeddedResource>
     <EmbeddedResource Include="Login Screen\Login Screen\Login Screen\LoginScreen.resx">
       <DependentUpon>LoginScreen.cs</DependentUpon>
@@ -175,14 +195,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <Compile Include="Properties\Resources.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DependentUpon>Resources.resx</DependentUpon>
-      <DesignTime>True</DesignTime>
-    </Compile>
     <None Include="Login Screen\Login Screen\.vs\Login Screen\v15\.suo" />
     <None Include="Login Screen\Login Screen\.vs\Login Screen\v15\Server\sqlite3\db.lock" />
     <None Include="Login Screen\Login Screen\.vs\Login Screen\v15\Server\sqlite3\storage.ide" />
@@ -196,10 +211,29 @@
     <None Include="Login Screen\Login Screen\Login Screen\obj\Debug\Login Screen.csproj.GenerateResource.cache" />
     <None Include="Login Screen\Login Screen\Login Screen\obj\Debug\Login Screen.csprojAssemblyReference.cache" />
     <None Include="Login Screen\Login Screen\Login Screen\Properties\Settings.settings" />
+    <None Include="ManagerService\App.config" />
+    <None Include="ManagerService\AppData.xsc">
+      <DependentUpon>AppData.xsd</DependentUpon>
+    </None>
+    <None Include="ManagerService\AppData.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>AppData.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ManagerService\AppData.xss">
+      <DependentUpon>AppData.xsd</DependentUpon>
+    </None>
+    <None Include="ManagerService\packages.config" />
+    <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
     </None>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\Settings.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Settings.settings</DependentUpon>
@@ -227,28 +261,64 @@
     <None Include="Resources\upButtonChoseDish.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\Untitled-7.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\editdishUpButton.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="Data\Orders.xml" />
-    <Content Include="Data\Dishes.xml" />
+    <Content Include="Data\FeedBacks.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Data\Orders.xml">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="Login Screen\Login Screen\Login Screen.sln" />
     <Content Include="Login Screen\Login Screen\Login Screen\bin\Debug\Login Screen.exe" />
     <Content Include="Login Screen\Login Screen\Login Screen\bin\Debug\Login Screen.pdb" />
-    <Content Include="Data\VipUsers.xml" />
     <Content Include="Login Screen\Login Screen\Login Screen\Login Screen.csproj" />
     <Content Include="Login Screen\Login Screen\Login Screen\obj\Debug\Login Screen.csproj.FileListAbsolute.txt" />
     <Content Include="Login Screen\Login Screen\Login Screen\obj\Debug\Login Screen.exe" />
     <Content Include="Login Screen\Login Screen\Login Screen\obj\Debug\Login Screen.pdb" />
-    <Content Include="ManagerService\MAIN_GUI_Mangaer_window.csproj" />
+    <Content Include="Data\Ads.xml" />
+    <Content Include="Data\Dishes.xml" />
+    <Content Include="Data\Smtp.xml" />
+    <Content Include="Data\Users.xml" />
+    <Content Include="ManagerService\Resources\email-temp.html" />
+    <Content Include="ManagerService\Resources\main-recoverpass.html" />
+    <Content Include="Resources\BackGroundChooseDIsh.jpg" />
+    <None Include="Resources\BackGroundChooseDIsh2.jpg" />
+    <Content Include="Resources\ok-2282499_960_720.png" />
+    <Content Include="Resources\v.jpg" />
+    <None Include="Resources\v2.jpg" />
+    <Content Include="Resources\finishButton1.jpg" />
+    <None Include="Resources\CallServiceButton.jpg" />
+    <None Include="Resources\BackGroundChooseDIsh1.jpg" />
+    <Content Include="Resources\ChooseButtonUp.jpg" />
+    <None Include="Resources\DownButton.jpg" />
+    <Content Include="Resources\EditButtonUp.jpg" />
+    <Content Include="Resources\editdishUpButton.jpg" />
+    <Content Include="Resources\FeedBackButtonUp.jpg" />
+    <None Include="Resources\finishButtondone.jpg" />
+    <None Include="Resources\finishButtondddd.jpg" />
+    <Content Include="Resources\finishButton.jpg" />
+    <Content Include="Resources\FinishButtonUp.jpg" />
+    <None Include="Resources\NextButton.jpg" />
+    <Content Include="Resources\MainCourseButton.jpg" />
+    <None Include="Resources\paybutton.jpg" />
+    <Content Include="Resources\finishbutton2.jpg" />
+    <Content Include="Resources\PayButtonUp.jpg" />
+    <None Include="Resources\PreviousButton.jpg" />
+    <None Include="Resources\saveChanges.jpg" />
+    <Content Include="Resources\Untitled-2.bmp" />
+    <Content Include="Resources\Untitled-5.jpg" />
+    <Content Include="Resources\Untitled-7.jpg" />
+    <None Include="Resources\FinishButtonUp12.jpg" />
+    <None Include="Resources\PayButtonUp12.jpg" />
+    <None Include="Resources\FeedBackButtonUp11.jpg" />
+    <None Include="Resources\EditButtonUpW1.jpg" />
+    <None Include="Resources\EditButtonUpW.jpg" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Login Screen\Login Screen\Login Screen\bin\Release\" />
     <Folder Include="Login Screen\Login Screen\Login Screen\Data\" />
     <Folder Include="Login Screen\Login Screen\Login Screen\obj\Debug\TempPE\" />
+    <Folder Include="ManagerService\Data\" />
+    <Folder Include="ManagerService\menu_views\" />
   </ItemGroup>
   <ItemGroup>
     <WCFMetadata Include="Connected Services\" />

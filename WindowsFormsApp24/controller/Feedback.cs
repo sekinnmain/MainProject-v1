@@ -7,8 +7,8 @@ namespace main
 {
    public class Feedback
     {
-        string customerFeedback;
-        int rateFeedback;
+        public string customerFeedback;
+        public int rateFeedback;
 
         public Feedback()
         {

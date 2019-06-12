@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Feedbacks>
+  <FeedBack></FeedBack>
+  <Feedback>
+    <FeedbackDate>2019-06-10T19:52:46.1373934+03:00</FeedbackDate>
+    <RatedFeedback>4</RatedFeedback>
+    <CustomerReply>Hey!</CustomerReply>
+  </Feedback>
+  <Feedback>
+    <FeedbackDate>2019-06-10T22:10:47.2373906+03:00</FeedbackDate>
+    <RatedFeedback>3</RatedFeedback>
+    <CustomerReply>Hey This is Test number 2</CustomerReply>
+  </Feedback>
+  <Feedback>
+    <FeedbackDate>2019-06-10T22:16:48.994868+03:00</FeedbackDate>
+    <RatedFeedback>10</RatedFeedback>
+    <CustomerReply>Wow Food was amazing!</CustomerReply>
+  </Feedback>
+  <Feedback>
+    <FeedbackDate>2019-06-3T22:16:48.994868+03:00</FeedbackDate>
+    <RatedFeedback>5</RatedFeedback>
+    <CustomerReply>Food was Alright...</CustomerReply>
+  </Feedback>
+  <Feedback>
+    <FeedbackDate>2019-06-10T23:36:40.4253754+03:00</FeedbackDate>
+    <RatedFeedback>5</RatedFeedback>
+    <CustomerReply>The food was O.k....</CustomerReply>
+  </Feedback>
+</Feedbacks>

@@ -10,6 +10,10 @@ using System.Windows.Forms;
 using System.Text.RegularExpressions;
 using System.Xml.Linq;
 using System.Xml.XPath;
+using WindowsFormsApp24;
+using Main;
+using NewUsers;
+using MAIN_GUI_Mangaer_window.ma_controller;
 
 namespace main
 {
@@ -33,14 +37,14 @@ namespace main
         int numIteractionButtonsDessert = 1;
         int numIteractionButtonsDrink = 1;
         int numIteractionButtonsAppetizer = 1;
-        OrderService myorder = new OrderService();
+        OrderService myorder = new OrderService();      
         Pay pay = new Pay();
         Feedback fb = new Feedback();
         Dish myDish = new Dish();
         List<Dish> dishes = new List<Dish>();
         double TotalCost;
         string nots;
-        RegisteredCustomers user = new RegisteredCustomers();
+        User user = new User();
 
         public Menu()
         {
@@ -95,7 +99,7 @@ namespace main
             listupbutton[count].Enabled = true;
             listupbutton[count - 1].Enabled = false;
             listpanel[count].Visible = true;
-            appetizer_tab.Visible = false;
+            DisheMenu_tab.Visible = false;
             NextPreviouscheck();
             ChooseEditMenuCheck();
             EditCheck();
@@ -138,7 +142,7 @@ namespace main
             {
                 listpanel[count].Visible = true;
                 listpanel[count].Visible = true;
-                appetizer_tab.Visible = true;
+                DisheMenu_tab.Visible = true;
                 Previous_Choose_btn.Enabled = false;
                 DishInfo_pnl.Visible = true;
             }
@@ -372,11 +376,12 @@ namespace main
             newButton.Click += (s, e) => { AddDishToOrder(nameOfButton); };
             groupBox1AppetizerDishes.Controls.Add(newButton);
             newButton.Top = numIteractionButtonsAppetizer * 40;
+            newButton.Font = new System.Drawing.Font("Georgia", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             newButton.Left = 3;
             newButton.Text = nameOfButton;
             numIteractionButtonsAppetizer += 1;
             newButton.Height = 40;
-            newButton.Width = 150;
+            newButton.Width = 285;
 
             //return newButton;
         }
@@ -390,12 +395,13 @@ namespace main
             newButton.MouseHover += (s, r) => { ShowDishData(nameOfButton); };
             newButton.Click += (s, e) => { AddDishToOrder(nameOfButton); };
             groupBox1MainButtons.Controls.Add(newButton);
+            newButton.Font = new System.Drawing.Font("Georgia", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             newButton.Top = numIteractionButtonsMain * 40;
             newButton.Left = 3;
             newButton.Text = nameOfButton;
             numIteractionButtonsMain += 1;
             newButton.Height = 40;
-            newButton.Width = 150;
+            newButton.Width = 285;
 
             //return newButton;
         }
@@ -409,12 +415,13 @@ namespace main
             newButton.MouseHover += (s, r) => { ShowDishData(nameOfButton); };
             newButton.Click += (s, e) => { AddDishToOrder(nameOfButton); };
             groupBox1DessertButtons.Controls.Add(newButton);
+            newButton.Font = new System.Drawing.Font("Georgia", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             newButton.Top = numIteractionButtonsDessert * 40;
             newButton.Left = 3;
             newButton.Text = nameOfButton;
             numIteractionButtonsDessert += 1;
             newButton.Height = 40;
-            newButton.Width = 150;
+            newButton.Width = 285;
             //return newButton;
         }
         public void AddButtonToCategoryDrink(string nameOfButton)
@@ -427,12 +434,14 @@ namespace main
             newButton.MouseHover += (s, r) => { ShowDishData(nameOfButton); };
             newButton.Click += (s, e) => { AddDishToOrder(nameOfButton); };
             groupBox1DrinkButtons.Controls.Add(newButton);
+            //newButton.BackgroundImage = Image.FromFile("\\Resources\\MainCourseButton");
             newButton.Top = numIteractionButtonsDrink * 40;
+            newButton.Font = new System.Drawing.Font("Georgia", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             newButton.Left = 3;
             newButton.Text = nameOfButton;
             numIteractionButtonsDrink += 1;
             newButton.Height = 40;
-            newButton.Width = 150;
+            newButton.Width = 285;
             //return newButton;
         }
 
@@ -514,6 +523,7 @@ namespace main
             Labels.Add(newLabel);
             Orders_GB.Controls.Add(newLabel);
             newLabel.Top = numIteractionLabelsMain * 20;
+            newLabel.Font = new System.Drawing.Font("Georgia", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             newLabel.Left = 40;
             newLabel.Text = myDish.DishName;
             numIteractionLabelsMain += 1;
@@ -561,6 +571,8 @@ namespace main
             //List<Dish> dishes = new List<Dish>();
             //double TotalCost;
             //public OrderService(User user, List<Dish> dish, Pay pay, string SeatOrGo, double Price, Feedback feedback, string Nots)
+            fb.customerFeedback = fb_description.Text;
+            fb.rateFeedback = Convert.ToInt32(fb_rate.Value);
             myorder.dishes = this.dishes;
             myorder.user = user;
             myorder.price = this.TotalCost;
@@ -568,6 +580,7 @@ namespace main
             myorder.SeatOrGo = get_seat_orGo_lbl.Text;
             myorder.Nots = nots;
             XmlParser.XmlParserOrder(myorder);
+            XmlParser.XmlParserFeedback(fb);
             this.Close();
         }
     }

@@ -10,13 +10,17 @@ using System.Windows.Forms;
 using NewUsers;
 using System.Xml.Linq;
 using main;
-
+using System.Text.RegularExpressions;
+using MAIN_GUI_Mangaer_window.ma_controller;
 
 namespace Login_Screen
 {
     public partial class SignUp : Form
     {
         DataTable dt = new DataTable("dt");
+        Regex PhoneNumberReg = new Regex("[0-9][0-9][0-9][0-9][0-9][0-9][0-9]");
+        
+
         public SignUp()
         {
             InitializeComponent();
@@ -65,37 +69,7 @@ namespace Login_Screen
 
         }
 
-        private void textBox3_TextChanged(object sender, EventArgs e)
-        {
-            if (textBox3.Text.Length == 4)
-            {
-                textBox3.MaxLength = 4;
-                textBox4.Enabled = true;
-                textBox4.Select();
-
-            }
-        }
-
-        private void textBox4_TextChanged(object sender, EventArgs e)
-        {
-            if (textBox4.Text.Length == 4)
-            {
-                textBox4.MaxLength = 4;
-                textBox5.Enabled = true;
-                textBox5.Select();
-            }
-        }
-
-        private void textBox5_TextChanged(object sender, EventArgs e)
-        {
-            if (textBox5.Text.Length == 4)
-            {
-                textBox5.MaxLength = 4;
-                textBox6.MaxLength = 4;
-                textBox6.Enabled = true;
-                textBox6.Select();
-            }
-        }
+        
 
         private void RegisterPhone1TextBox_TextChanged(object sender, EventArgs e)
         {
@@ -104,26 +78,73 @@ namespace Login_Screen
 
         private void SignUpButton_Click(object sender, EventArgs e)
         {
-            if (AviableUserNameName1.Visible && textBox1.Text != "" && textBox2.Text != "" && textBox3.Text != "" && textBox4.Text != "" && textBox5.Text != "" && textBox6.Text != ""
-                && RegisterEmail1ComboBox.Text != "" && RegisterEmail1TextBox.Text != "" && RegisterPassWord1TextBox.Text != "" && RegisterPhone1ComboBox.Text != "" && RegisterPhone1TextBox.Text != "" && RegisterStreet1TextBox.Text != "")
+            UnSuccesEmailCheckLabel.Visible = true;
+            UnSuccesFirstNameCheckLabel.Visible = true;
+            UnSuccesLastNameCheckLabel.Visible = true;
+            UnSuccesPassWordCheckLabel.Visible = true;
+            UnSuccesPhoneCheckLabel.Visible = true;
+            UnSuccesStreetCheckLabel.Visible = true;
+            UnSuccesUserNameCheckLabel.Visible = true;
+            UnSuccesVerifyPassWordCheckLabel.Visible = true;
+            if (AviableUserNameName1.Visible == true)
             {
+                SuccesUserNameCheckLabel.Visible = true;
+                UnSuccesUserNameCheckLabel.Visible = false;
+            }
+            if (RegisterPassWord1TextBox.Text.Length <= 14 && RegisterPassWord1TextBox.Text.Length >= 4)
+            {
+                SuccesPassWordCheckLabel.Visible = true;
+                UnSuccesPassWordCheckLabel.Visible = false;
+                
+            }
+            if (VerfyPassWordTextBox.Text == RegisterPassWord1TextBox.Text)
+            {
+                SuccesVerifyPassWordCheckLabel.Visible = true;
+                UnSuccesVerifyPassWordCheckLabel.Visible = false;
+
+            }
+            if (RegisterEmail1TextBox.Text.Length >= 4 && RegisterEmail1TextBox.Text.Length <= 14 && RegisterEmail1ComboBox.Text != "")
+            {
+                SuccesEmailCheckLabel.Visible = true;
+                UnSuccesEmailCheckLabel.Visible = false;
+            }
+            if (PhoneNumberReg.IsMatch(RegisterPhone1TextBox.Text) && RegisterPhone1ComboBox.Text != "")
+            {
+                SuccesPhoneCheckLabel.Visible = true;
+                UnSuccesPhoneCheckLabel.Visible = false;
+            }
+            if (RegisterStreet1TextBox.Text != "")
+            {
+                SuccesStreetCheckLabel.Visible = true;
+                UnSuccesStreetCheckLabel.Visible = false;
+            }
+            if (textBox1.Text != "")
+            {
+                SuccesFirstNameCheckLabel.Visible = true;
+                UnSuccesFirstNameCheckLabel.Visible = false;
+            }
+            if (textBox2.Text != "")
+            {
+                SuccesLastNameCheckLabel.Visible = true;
+                UnSuccesLastNameCheckLabel.Visible = false;
+            }
+            if (SuccesEmailCheckLabel.Visible == true && SuccesFirstNameCheckLabel.Visible == true && SuccesLastNameCheckLabel.Visible == true && SuccesPassWordCheckLabel.Visible == true && SuccesPhoneCheckLabel.Visible == true && SuccesStreetCheckLabel.Visible == true && SuccesUserNameCheckLabel.Visible == true && SuccesVerifyPassWordCheckLabel.Visible == true )
+           {
                 VipCustomer vip = new VipCustomer();
                 vip.FirstName = textBox1.Text;
                 vip.LastName = textBox2.Text;
                 vip.UserName = RegisterUserName1TextBox.Text;
                 vip.PassWord = RegisterPassWord1TextBox.Text;
                 vip.Email = RegisterEmail1TextBox.Text + "@" + RegisterEmail1ComboBox.Text;
-                vip.adress = RegisterStreet1TextBox.Text;
+                vip.Address = RegisterStreet1TextBox.Text;
                 vip.PhoneNumber = RegisterPhone1ComboBox.Text + RegisterPhone1TextBox.Text;
-                vip.CreditCard = textBox3.Text + textBox4.Text + textBox5.Text + textBox6.Text;
+                vip.userType = "Vipuser";
+
                 XmlParser.XmlParserVipCustomer(vip);
-                                
-                MessageBox.Show("Succesfully Registered", "WOOHOO");
-                
+
+                MessageBox.Show("Successfully Registered", "WOOHOO");
+
                 this.Close();
-               // LoginScreen.listsign.Clear();
-
-
 
             }
             

@@ -1,56 +1,89 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Threading;
+using System.Xml.Linq;
+using System.Xml.XPath;
+using MAIN_GUI_Mangaer_window.ma_controller;
+using MAIN_GUI_Mangaer_window;
 
-namespace main
+namespace Main.yonor
 {
     /// <summary>
     /// Summary description for MailingList
     /// </summary>
+    /// 
     public class MailingList
     {
         //private VipCustomer[] Subscribers;
         //private Advertisement[] Ads;
-        public Queue<Advertisement> Ads = new Queue<Advertisement>();
-        private DateTime StartDate;
-        private DateTime EndDate;
-        private bool scheduleState = true;
+        private const int INTERVAL = 30000;
+        private Queue<Advertisement> Ads = new Queue<Advertisement>();
+        //private Queue<string> customersEmails = new Queue<string>();
+        Advertisement adToSend = new Advertisement();
+        //private readonly object lockThis = new object();
+
+        public DateTime StartDate { get; set; }
+        public DateTime EndDate { get; set; }
+        public bool scheduleState { get; set; }
         public int DispacherFrecuency { get; set; }
-        public MailingList()
+
+        public MailingList(bool enbleAdsCampegin)
         {
-            //
-            // TODO: Add constructor logic here
-            //
+            scheduleState = enbleAdsCampegin;
+            LoadCusomersEmails();
+            LoadValidAds();
+            new Timer(StartMailing, null, 0, INTERVAL);
         }
-        public void AddAd(Advertisement myAd)
+        public void StartMailing(object o)
         {
-            Ads.Enqueue(myAd);
+
+            //foreach (string email in customersEmails)
+            //{
+            //    customersEmails.Dequeue();
+            //}
+
+            if (scheduleState)
+            {
+                Mailer.EmailAd(Ads.Dequeue());
+
+            }
+
         }
 
-        public void SendAds()
+       
+
+        private void LoadCusomersEmails()
         {
-            Mailer myMailer = new Mailer();
-          //  myMailer.SendEmail(Ads.Dequeue());
-            //delegate?
-        }
-        public void StartAds()
-        {
-            //
-            while (this.scheduleState)
+
+            foreach (XElement xe in (XDocument.Load(XmlParser.xmlUsers).XPathSelectElements("//RegisteredUser")))
             {
-                var now = DateTime.Now;
-                var schedule = new DateTime(now.Year, now.Month, now.Day, 8, 55, 00);
-                if (schedule < now) schedule = schedule.AddDays(1);
-            //    Thread.Sleep(schedule.Subtract(now));
-                SendAds();
+
+                Mailer.addRecipientsToAd(xe.Element("Email").Value);
+
+                //customersEmails.Enqueue(xe.Element("Email").Value);
 
             }
         }
-        public void StopAds()
+        private void LoadValidAds()
         {
-            //
-            this.scheduleState = false;
+            foreach (XElement xe in (XDocument.Load(XmlParser.xmlAds).XPathSelectElements("//Ad")))
+            {
+                if (xe.Element("Active").Value.Equals("1"))
+                {
+                    adToSend.CompanyName = xe.Element("CompanyName").Value;
+                    adToSend.Url = xe.Element("URL").Value;
+                    //DateTime adExpTime = DateTime.Parse(xe.Element("ExpirationDate").Value);
+                    adToSend.AdBody = xe.Element("AdBody").Value;
+                    Ads.Enqueue(adToSend);
+                }
 
+            }
         }
+
+
+
+
+
 
 
     }

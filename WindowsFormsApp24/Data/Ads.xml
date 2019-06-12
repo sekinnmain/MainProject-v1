@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Ads>
+  <Ad>
+    <CompanyName>Andrea Bocelli</CompanyName>
+    <Price>0</Price>
+    <Active>1</Active>
+    <AdBody>some nice things along the way</AdBody>
+    <CreationDate>2019-06-09T17:04:24.7810017+03:00</CreationDate>
+    <ExpirationDate>01/06/2019 17:03:49</ExpirationDate>
+    <URL />
+    <Image>C:\Users\userr\Pictures\1test.jpg</Image>
+  </Ad>
+  <Ad>
+    <CompanyName>Ferrari</CompanyName>
+    <Price>3444</Price>
+    <Active>1</Active>
+    <AdBody>Some nice things are there</AdBody>
+    <CreationDate>2019-06-09T23:51:31.3455271+03:00</CreationDate>
+    <ExpirationDate>12/06/2019 23:50:32</ExpirationDate>
+    <URL>google.com</URL>
+    <Image>C:\Users\userr\Pictures\2test.jpg</Image>
+  </Ad>
+  <Ad>
+    <CompanyName>NetFlix</CompanyName>
+    <Price>8999</Price>
+    <Active>1</Active>
+    <AdBody>Some Text will be ok</AdBody>
+    <CreationDate>2019-06-09T23:52:17.1026833+03:00</CreationDate>
+    <ExpirationDate>13/06/2019 23:51:39</ExpirationDate>
+    <URL>netflix.com</URL>
+    <Image>C:\Users\userr\Pictures\test.jpg</Image>
+  </Ad>
+</Ads>

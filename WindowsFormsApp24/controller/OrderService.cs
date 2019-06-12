@@ -7,6 +7,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Timers;
 using NewUsers;
+using Main;
 /*  IdOrder: int.Random
 +User : user
 +Dish[] : dish
@@ -30,7 +31,7 @@ namespace main
     {
 
         public int IdOrder;
-        public RegisteredCustomers user;
+        public User user;
         public List<Dish> dishes;
         public Pay pay;
         public Stopwatch timer;
@@ -48,7 +49,7 @@ namespace main
             this.timer = new Stopwatch();
             timer.Start();
         }
-        public OrderService(RegisteredCustomers user, List<Dish> dish, Pay pay, string SeatOrGo, double Price,Feedback feedback,string Nots)/*בנאי להזמנה מהמסעדב*/
+        public OrderService(User user, List<Dish> dish, Pay pay, string SeatOrGo, double Price,Feedback feedback,string Nots)/*בנאי להזמנה מהמסעדב*/
         {
             Random r = new Random();
             this.IdOrder = r.Next();
@@ -66,7 +67,7 @@ namespace main
 
         }
 
-        public OrderService(RegisteredCustomers user, List<Dish> dish, Pay pay,  string SeatOrGo)
+        public OrderService(User user, List<Dish> dish, Pay pay,  string SeatOrGo)
         {
             this.user = user;
             this.dishes = dish;
@@ -85,7 +86,7 @@ namespace main
              *  */
         }
 
-        public RegisteredCustomers UserP { get { return this.user; } set { this.user = value; } }
+        public User UserP { get { return this.user; } set { this.user = value; } }
         public int IdOrderP() { return this.IdOrder; }
         public Pay PayP { get { return this.pay; } set { this.pay = value; } }
         public Stopwatch TimerP() { return this.timer; }

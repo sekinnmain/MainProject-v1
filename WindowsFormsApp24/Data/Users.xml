@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Users>
+  <RegisteredUser>
+    <FirstName>DudoVip</FirstName>
+    <LastName>Dudon</LastName>
+    <Type>Manager</Type>
+    <UserName>admin</UserName>
+    <PassWord>admin</PassWord>
+    <Email>info@pentest.co.il</Email>
+    <Address>Haifal</Address>
+    <PhoneNumber>123123123</PhoneNumber>
+  </RegisteredUser>
+  <RegisteredUser>
+    <FirstName>ShimEmplo</FirstName>
+    <LastName>EmploLastName</LastName>
+    <UserName></UserName>
+    <Type>Employee</Type>
+    <ID>1232123</ID>
+    <Email>6yonor@gmail.com</Email>
+    <Address>Shmo</Address>
+    <PhoneNumber>234234234</PhoneNumber>
+  </RegisteredUser>
+  <RegisteredUser>
+    <FirstName>Mano mana</FirstName>
+    <LastName>manager</LastName>
+    <UserName></UserName>
+    <Type>Manager</Type>
+    <Email>yonor@me.com</Email>
+    <Address>mahaifa</Address>
+    <PhoneNumber>544354345</PhoneNumber>
+  </RegisteredUser>
+  <RegisteredUser>
+    <FirstName>TEstvip</FirstName>
+    <LastName>asdasd</LastName>
+    <Type>Vipuser</Type>
+    <UserName>asdqwe</UserName>
+    <PassWord>asdqwe</PassWord>
+    <Email>asd@asd.asd</Email>
+    <Address>asd@asd.asd</Address>
+    <PhoneNumber>asdqwe</PhoneNumber>
+  </RegisteredUser>
+  <RegisteredUser>
+    <FirstName>michael</FirstName>
+    <LastName>savinetsky</LastName>
+    <Type>Vipuser</Type>
+    <UserName>michael2608</UserName>
+    <PassWord>458592686</PassWord>
+    <Email>mishael2013@hotmail.com</Email>
+    <Address>pooky</Address>
+    <PhoneNumber>0525555555</PhoneNumber>
+  </RegisteredUser>
+</Users>

@@ -9,6 +9,8 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using NewUsers;
 using Login_Screen;
+using Main.yonor;
+using MAIN_GUI_Mangaer_window;
 
 
 namespace main
@@ -70,12 +72,13 @@ namespace main
         {
 
             bool chkvip = XmlLoader.CheckIfVipCustomerExist(UserNameTextBox.Text, PassWordTextBox.Text);
-            bool chkmng = (UserNameTextBox.Text.ToString() == "admin") && (PassWordTextBox.Text == "admin" )? true : false;  
-            if (UserNameTextBox.Text != "" && PassWordTextBox.Text != "" && chkvip == true )
+            bool chkmng = (UserNameTextBox.Text.ToString() == "admin") && (PassWordTextBox.Text == "admin" )? true : false;
+            bool chktypemng = XmlLoader.CheckIfManagerType(UserNameTextBox.Text);
+            if (UserNameTextBox.Text != "" && PassWordTextBox.Text != "" && chkvip == true && chktypemng== false)
             {
                 if (UserNameTextBox.Text != "Enter User Name Here" && PassWordTextBox.Text != "Enter Pass Word Here")
                 {
-                    VipPanel.Visible = true;
+                    VipLoginPanel.Visible = true;
                      UserNameTextBox.ForeColor = Color.Gray;
                      UserNameTextBox.Text = "Enter User Name Here";
                      PassWordTextBox.UseSystemPasswordChar = false;
@@ -89,15 +92,15 @@ namespace main
 
 
             }
-            else if (UserNameTextBox.Text != "" && PassWordTextBox.Text != "" && chkmng == true)
+            else if (UserNameTextBox.Text != "" && PassWordTextBox.Text != "" && chkmng == true&& chktypemng == true)
             {
-                VipPanel.Visible = true;
+                MangerLoginPanel.Visible = true;
                 UserNameTextBox.ForeColor = Color.Gray;
                 UserNameTextBox.Text = "Enter User Name Here";
                 PassWordTextBox.UseSystemPasswordChar = false;
                 PassWordTextBox.ForeColor = Color.Gray;
                 PassWordTextBox.Text = "Enter Pass Word Here";
-                manager_service_btn.Visible = true;
+                
             }
             else 
             {
@@ -119,17 +122,17 @@ namespace main
 
         private void LogOutLabel_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            VipPanel.Visible = false;
+            MangerLoginPanel.Visible = false;
         }
 
         private void VIPorderFromMenuButton_Click(object sender, EventArgs e)
         {
-            VipChooseLocationPanel.Visible = true;
+            
         }
 
         private void ReturnButton_Click(object sender, EventArgs e)
         {
-            VipChooseLocationPanel.Visible = false;
+            
         }
 
         private void linkLabel3_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
@@ -139,92 +142,98 @@ namespace main
             PassWordTextBox.UseSystemPasswordChar = false;
             PassWordTextBox.ForeColor = Color.Gray;
             PassWordTextBox.Text = "Enter Pass Word Here";
-            GuestPanel.Visible = true;
+            GuestLoginPanel.Visible = true;
         }
 
         private void GuestOrderFromMenuButton_Click(object sender, EventArgs e)
         {
-            GuestLocationPanel.Visible = true;
+            Menu menu = new Menu();
+            menu.Show();
+            menu.get_seat_orGo_lbl.Text = "OutSide";
+            menu.get_club_member_lbl.Text = "guest";
+            menu.get_numberofpoint_lbl.Text = "Null";
+            menu.Call_Service_Choose_btn.Enabled = false;
+            this.Hide();
         }
 
         private void SignInLabel_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            GuestPanel.Visible =false ;
+            GuestLoginPanel.Visible =false ;
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-            GuestLocationPanel.Visible = false;
+            
         }
 
         private void EatInsdieButton_MouseEnter(object sender, EventArgs e)
         {
-            EatInsdieButton.BackColor = Color.DarkGoldenrod;
+            
         }
 
         private void EatInsdieButton_MouseLeave(object sender, EventArgs e)
         {
-            EatInsdieButton.BackColor = Color.Goldenrod;
+            
         }
 
         private void button1_MouseEnter(object sender, EventArgs e)
         {
-            EatSomeWhereElseButtonGuestButton.BackColor = Color.DarkGoldenrod;
+           
         }
 
         private void button1_MouseLeave(object sender, EventArgs e)
         {
-            EatSomeWhereElseButtonGuestButton.BackColor = Color.Goldenrod;
+            
         }
 
         private void button4_MouseEnter(object sender, EventArgs e)
         {
-            EatInsideButton.BackColor = Color.DarkGoldenrod;
+            
         }
 
         private void button4_MouseLeave(object sender, EventArgs e)
         {
-            EatInsideButton.BackColor = Color.Goldenrod;
+            
         }
 
         private void EatSomeWhereElseButton_MouseEnter(object sender, EventArgs e)
         {
-            EatSomeWhereElseButton.BackColor = Color.DarkGoldenrod;
+            
         }
 
         private void EatSomeWhereElseButton_MouseLeave(object sender, EventArgs e)
         {
-            EatSomeWhereElseButton.BackColor = Color.Goldenrod;
+            
         }
 
         private void GamesButton_MouseEnter(object sender, EventArgs e)
         {
-            GamesButton.BackColor = Color.DarkGoldenrod;
+            
         }
 
         private void GamesButton_MouseLeave(object sender, EventArgs e)
         {
-            GamesButton.BackColor = Color.Goldenrod;
+            
         }
 
         private void GuestOrderFromMenuButton_MouseEnter(object sender, EventArgs e)
         {
-            GuestOrderFromMenuButton.BackColor = Color.DarkGoldenrod;
+            GuestEatOutsideButton.BackColor = Color.DarkGoldenrod;
         }
 
         private void GuestOrderFromMenuButton_MouseLeave(object sender, EventArgs e)
         {
-            GuestOrderFromMenuButton.BackColor = Color.Goldenrod;
+            GuestEatOutsideButton.BackColor = Color.Goldenrod;
         }
 
         private void GuestRetrunButton_MouseEnter(object sender, EventArgs e)
         {
-            GuestRetrunButton.BackColor = Color.DarkGoldenrod;
+            
         }
 
         private void GuestRetrunButton_MouseLeave(object sender, EventArgs e)
         {
-            GuestRetrunButton.BackColor = Color.Goldenrod;
+           
         }
 
         private void LoginButton_MouseEnter(object sender, EventArgs e)
@@ -239,32 +248,32 @@ namespace main
 
         private void PointShopButton_MouseEnter(object sender, EventArgs e)
         {
-            PointShopButton.BackColor = Color.DarkGoldenrod;
+            
         }
 
         private void PointShopButton_MouseLeave(object sender, EventArgs e)
         {
-            PointShopButton.BackColor = Color.Goldenrod;
+            
         }
 
         private void ReturnButton_MouseEnter(object sender, EventArgs e)
         {
-            ReturnButton.BackColor = Color.DarkGoldenrod;
+           
         }
 
         private void ReturnButton_MouseLeave(object sender, EventArgs e)
         {
-            ReturnButton.BackColor = Color.Goldenrod;
+            
         }
 
         private void VIPorderFromMenuButton_MouseEnter(object sender, EventArgs e)
         {
-            VIPorderFromMenuButton.BackColor = Color.DarkGoldenrod;
+            
         }
 
         private void VIPorderFromMenuButton_MouseLeave(object sender, EventArgs e)
         {
-            VIPorderFromMenuButton.BackColor = Color.Goldenrod;
+            
         }
 
         private void GuestLocationPanel_Paint(object sender, PaintEventArgs e)
@@ -348,7 +357,7 @@ namespace main
             menu.Show();
             menu.get_seat_orGo_lbl.Text = "Inside";
             menu.get_club_member_lbl.Text = "Guest";
-            menu.get_numberofpoint_lbl.Text = "Null"; // צריך לעשות שדה באקסאמאל של הוי איי פי יוזר שתמיד יתחיל מ0 כשנרשמים ויראה את הנקודות
+            
             this.Hide();
         }
 
@@ -369,7 +378,7 @@ namespace main
             menu.Show();
             menu.get_seat_orGo_lbl.Text = "OutSide";
             menu.get_club_member_lbl.Text = "guest";
-            menu.get_numberofpoint_lbl.Text = "Null";
+            
             menu.Call_Service_Choose_btn.Enabled = false;
             this.Hide();
         }
@@ -388,6 +397,104 @@ namespace main
         {
             main_manager_wnd myManager = new main_manager_wnd();
             myManager.ShowDialog();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+           
+           
+        }
+
+        private void button2_Click_1(object sender, EventArgs e)
+        {
+            
+            MangerLoginPanel.Visible = true;
+        }
+
+        private void button1_Click_1(object sender, EventArgs e)
+        {
+            Menu menu = new Menu();
+            menu.Show();
+            menu.get_seat_orGo_lbl.Text = "Inside";
+            menu.get_club_member_lbl.Text = "guest";
+            
+            menu.Call_Service_Choose_btn.Enabled = false;
+            this.Hide();
+        }
+
+        private void ManagerEatInsideButton_Click(object sender, EventArgs e)
+        {
+            Menu menu = new Menu();
+            menu.Show();
+            menu.get_seat_orGo_lbl.Text = "Inside";
+            menu.get_club_member_lbl.Text = "Manager";
+            
+            menu.Call_Service_Choose_btn.Enabled = false;
+            this.Hide();
+        }
+
+        private void ManagerEatOutSideButton_Click(object sender, EventArgs e)
+        {
+            Menu menu = new Menu();
+            menu.Show();
+            menu.get_seat_orGo_lbl.Text = "Inside";
+            menu.get_club_member_lbl.Text = "Manager";
+
+            menu.Call_Service_Choose_btn.Enabled = false;
+            this.Hide();
+        }
+
+        private void VipCustomerEatInsideButton_Click(object sender, EventArgs e)
+        {
+            Menu menu = new Menu();
+            menu.Show();
+            menu.get_seat_orGo_lbl.Text = "Inside";
+            menu.get_club_member_lbl.Text = "Vip Customer";
+
+            menu.Call_Service_Choose_btn.Enabled = false;
+            this.Hide();
+        }
+
+        private void VipCustomerEatOutSideButton_Click(object sender, EventArgs e)
+        {
+            Menu menu = new Menu();
+            menu.Show();
+            menu.get_seat_orGo_lbl.Text = "Inside";
+            menu.get_club_member_lbl.Text = "Vip Customer";
+
+            menu.Call_Service_Choose_btn.Enabled = false;
+            this.Hide();
+        }
+
+        private void VipLogOutLabel_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            VipLoginPanel.Visible = false;
+        }
+
+        private void UserNameTextBox_Enter(object sender, EventArgs e)
+        {
+            UserNameTextBox.Clear();
+            UserNameTextBox.ForeColor = Color.Black;
+            if (UserNameTextBox.Text == "")
+            {
+                PassWordTextBox.UseSystemPasswordChar = false;
+                PassWordTextBox.ForeColor = Color.Gray;
+                PassWordTextBox.Text = "Enter Pass Word Here";
+
+            }
+        }
+
+        private void PassWordTextBox_Enter(object sender, EventArgs e)
+        {
+            PassWordTextBox.Clear();
+            PassWordTextBox.ForeColor = Color.Black;
+            PassWordTextBox.UseSystemPasswordChar = true;
+
+            if (UserNameTextBox.Text == "")
+            {
+                UserNameTextBox.ForeColor = Color.Gray;
+                UserNameTextBox.Text = "Enter User Name Here";
+            }
         }
     }
 }

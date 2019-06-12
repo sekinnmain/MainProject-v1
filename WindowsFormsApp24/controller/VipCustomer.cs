@@ -3,23 +3,16 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using main;
 
-namespace main
+namespace NewUsers
 {
-    public class VipCustomer : RegisteredCustomers
+    public class VipCustomer : User
     {
-        public string CreditCard;
-        public string UserName;
-        public string PassWord;
-        
+        public string UserName { get; set; }
+        public string PassWord { get; set; }
 
 
-        public  VipCustomer()
-        {
-            
-        }
-        
+    
 
     }
 }

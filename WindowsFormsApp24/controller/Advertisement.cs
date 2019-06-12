@@ -3,7 +3,7 @@
 
 
 
-namespace main
+namespace Main.yonor
 {
 
 
@@ -20,6 +20,7 @@ namespace main
             //
             Active = false;
         }
+
         public string CompanyName { get; set; }
         public string ImgPath { get; set; }
         public string AdBody { get; set; }
@@ -28,7 +29,6 @@ namespace main
         public DateTime ExpirationDate { get; set; }
         public float Price { get; set; }
         public string Url { get; set; }
-        public MailingList MailingList {get; set;}
 
         public void DisableAd()
         {
@@ -40,7 +40,15 @@ namespace main
         }
         public string GetStatus()
         {
-            return Active.ToString();
+            if(Active)
+            {
+                return "1";
+            }
+            else
+            {
+                return "0";
+            }
+            
         }
         public override string ToString()
         {

@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SmtpSe>
+  <Host>
+    <HostIP>212.117.143.90</HostIP>
+    <Port>25</Port>
+    <Username>main-delivery</Username>
+    <Password>@@Main@@123</Password>
+  </Host>
+</SmtpSe>

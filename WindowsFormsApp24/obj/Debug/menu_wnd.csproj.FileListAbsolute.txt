@@ -1,0 +1,248 @@
+C:\Users\userr\Source\Repos\sekinnmain\Idan-and-Niran-GUI-Menu\WindowsFormsApp24\obj\Debug\menu_wnd.csprojAssemblyReference.cache
+C:\Users\userr\Source\Repos\sekinnmain\Idan-and-Niran-GUI-Menu\WindowsFormsApp24\obj\Debug\main.Form1.resources
+C:\Users\userr\Source\Repos\sekinnmain\Idan-and-Niran-GUI-Menu\WindowsFormsApp24\obj\Debug\WindowsFormsApp24.Properties.Resources.resources
+C:\Users\userr\Source\Repos\sekinnmain\Idan-and-Niran-GUI-Menu\WindowsFormsApp24\obj\Debug\menu_wnd.csproj.GenerateResource.cache
+C:\Users\userr\Source\Repos\sekinnmain\Idan-and-Niran-GUI-Menu\WindowsFormsApp24\obj\Debug\menu_wnd.csproj.CoreCompileInputs.cache
+C:\Users\userr\Source\Repos\sekinnmain\Idan-and-Niran-GUI-Menu\WindowsFormsApp24\obj\Debug\WindowsFormsApp24.exe
+C:\Users\userr\Source\Repos\sekinnmain\Idan-and-Niran-GUI-Menu\WindowsFormsApp24\obj\Debug\WindowsFormsApp24.pdb
+C:\Users\userr\Source\Repos\sekinnmain\Idan-and-Niran-GUI-Menu\WindowsFormsApp24\bin\Debug\WindowsFormsApp24.exe.config
+C:\Users\userr\Source\Repos\sekinnmain\Idan-and-Niran-GUI-Menu\WindowsFormsApp24\bin\Debug\WindowsFormsApp24.exe
+C:\Users\userr\Source\Repos\sekinnmain\Idan-and-Niran-GUI-Menu\WindowsFormsApp24\bin\Debug\WindowsFormsApp24.pdb
+C:\Users\IDAN TOKAYER\Documents\GitHub\Idan-and-Niran-GUI-Menu\WindowsFormsApp24\obj\Debug\menu_wnd.csprojAssemblyReference.cache
+C:\Users\IDAN TOKAYER\Documents\GitHub\Idan-and-Niran-GUI-Menu\WindowsFormsApp24\obj\Debug\WindowsFormsApp24.Properties.Resources.resources
+C:\Users\IDAN TOKAYER\Documents\GitHub\Idan-and-Niran-GUI-Menu\WindowsFormsApp24\obj\Debug\menu_wnd.csproj.GenerateResource.cache
+C:\Users\IDAN TOKAYER\Documents\GitHub\Idan-and-Niran-GUI-Menu\WindowsFormsApp24\obj\Debug\menu_wnd.csproj.CoreCompileInputs.cache
+C:\Users\IDAN TOKAYER\Documents\GitHub\Idan-and-Niran-GUI-Menu\WindowsFormsApp24\obj\Debug\WindowsFormsApp24.exe
+C:\Users\IDAN TOKAYER\Documents\GitHub\Idan-and-Niran-GUI-Menu\WindowsFormsApp24\obj\Debug\WindowsFormsApp24.pdb
+C:\Users\IDAN TOKAYER\Documents\GitHub\Idan-and-Niran-GUI-Menu\WindowsFormsApp24\bin\Debug\WindowsFormsApp24.exe.config
+C:\Users\IDAN TOKAYER\Documents\GitHub\Idan-and-Niran-GUI-Menu\WindowsFormsApp24\bin\Debug\WindowsFormsApp24.exe
+C:\Users\IDAN TOKAYER\Documents\GitHub\Idan-and-Niran-GUI-Menu\WindowsFormsApp24\bin\Debug\WindowsFormsApp24.pdb
+C:\Users\IDAN TOKAYER\Documents\GitHub\Idan-and-Niran-GUI-Menu\WindowsFormsApp24\obj\Debug\WindowsFormsApp24.Login_Screen.Login_Screen.Login_Screen.Properties.Resources.resources
+C:\Users\IDAN TOKAYER\Documents\GitHub\Idan-and-Niran-GUI-Menu\WindowsFormsApp24\obj\Debug\Login_Screen.SignUp.resources
+C:\Users\IDAN TOKAYER\Documents\GitHub\Idan-and-Niran-GUI-Menu\WindowsFormsApp24\obj\Debug\main.Menu.resources
+C:\Users\IDAN TOKAYER\Documents\GitHub\Idan-and-Niran-GUI-Menu\WindowsFormsApp24\obj\Debug\main.LoginScreen.resources
+C:\Users\User\Desktop\MAIN project\menu---users---signUp-GUI\WindowsFormsApp24\bin\Debug\WindowsFormsApp24.exe
+C:\Users\User\Desktop\MAIN project\menu---users---signUp-GUI\WindowsFormsApp24\bin\Debug\WindowsFormsApp24.exe.config
+C:\Users\User\Desktop\MAIN project\menu---users---signUp-GUI\WindowsFormsApp24\obj\Debug\menu_wnd.csprojAssemblyReference.cache
+C:\Users\User\Desktop\MAIN project\menu---users---signUp-GUI\WindowsFormsApp24\obj\Debug\main.Menu.resources
+C:\Users\User\Desktop\MAIN project\menu---users---signUp-GUI\WindowsFormsApp24\obj\Debug\main.LoginScreen.resources
+C:\Users\User\Desktop\MAIN project\menu---users---signUp-GUI\WindowsFormsApp24\obj\Debug\WindowsFormsApp24.Login_Screen.Login_Screen.Login_Screen.Properties.Resources.resources
+C:\Users\User\Desktop\MAIN project\menu---users---signUp-GUI\WindowsFormsApp24\obj\Debug\Login_Screen.SignUp.resources
+C:\Users\User\Desktop\MAIN project\menu---users---signUp-GUI\WindowsFormsApp24\obj\Debug\WindowsFormsApp24.Properties.Resources.resources
+C:\Users\User\Desktop\MAIN project\menu---users---signUp-GUI\WindowsFormsApp24\obj\Debug\menu_wnd.csproj.GenerateResource.cache
+C:\Users\User\Desktop\MAIN project\menu---users---signUp-GUI\WindowsFormsApp24\obj\Debug\menu_wnd.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\MAIN project\menu---users---signUp-GUI\WindowsFormsApp24\obj\Debug\WindowsFormsApp24.exe
+C:\Users\User\Desktop\MAIN project\menu---users---signUp-GUI\WindowsFormsApp24\obj\Debug\WindowsFormsApp24.pdb
+C:\Users\User\Desktop\MAIN project\menu---users---signUp-GUI\WindowsFormsApp24\bin\Debug\WindowsFormsApp24.pdb
+C:\Users\IDAN TOKAYER\Desktop\menu---users---signUp-GUI\WindowsFormsApp24\bin\Debug\WindowsFormsApp24.exe.config
+C:\Users\IDAN TOKAYER\Desktop\menu---users---signUp-GUI\WindowsFormsApp24\bin\Debug\WindowsFormsApp24.exe
+C:\Users\IDAN TOKAYER\Desktop\menu---users---signUp-GUI\WindowsFormsApp24\bin\Debug\WindowsFormsApp24.pdb
+C:\Users\IDAN TOKAYER\Desktop\menu---users---signUp-GUI\WindowsFormsApp24\obj\Debug\menu_wnd.csprojAssemblyReference.cache
+C:\Users\IDAN TOKAYER\Desktop\menu---users---signUp-GUI\WindowsFormsApp24\obj\Debug\main.Menu.resources
+C:\Users\IDAN TOKAYER\Desktop\menu---users---signUp-GUI\WindowsFormsApp24\obj\Debug\main.LoginScreen.resources
+C:\Users\IDAN TOKAYER\Desktop\menu---users---signUp-GUI\WindowsFormsApp24\obj\Debug\WindowsFormsApp24.Login_Screen.Login_Screen.Login_Screen.Properties.Resources.resources
+C:\Users\IDAN TOKAYER\Desktop\menu---users---signUp-GUI\WindowsFormsApp24\obj\Debug\Login_Screen.SignUp.resources
+C:\Users\IDAN TOKAYER\Desktop\menu---users---signUp-GUI\WindowsFormsApp24\obj\Debug\WindowsFormsApp24.Properties.Resources.resources
+C:\Users\IDAN TOKAYER\Desktop\menu---users---signUp-GUI\WindowsFormsApp24\obj\Debug\menu_wnd.csproj.GenerateResource.cache
+C:\Users\IDAN TOKAYER\Desktop\menu---users---signUp-GUI\WindowsFormsApp24\obj\Debug\menu_wnd.csproj.CoreCompileInputs.cache
+C:\Users\IDAN TOKAYER\Desktop\menu---users---signUp-GUI\WindowsFormsApp24\obj\Debug\WindowsFormsApp24.exe
+C:\Users\IDAN TOKAYER\Desktop\menu---users---signUp-GUI\WindowsFormsApp24\obj\Debug\WindowsFormsApp24.pdb
+C:\Users\IDAN TOKAYER\Desktop\menu---users---signUp-GUI\WindowsFormsApp24\obj\Debug\main.CreateDish.resources
+C:\Users\IDAN TOKAYER\Desktop\menu---users---signUp-GUI\WindowsFormsApp24\obj\Debug\main.CreateUser.resources
+C:\Users\IDAN TOKAYER\Desktop\menu---users---signUp-GUI\WindowsFormsApp24\obj\Debug\main.create_ad.resources
+C:\Users\IDAN TOKAYER\Desktop\menu---users---signUp-GUI\WindowsFormsApp24\obj\Debug\main.EditUser.resources
+C:\Users\IDAN TOKAYER\Desktop\menu---users---signUp-GUI\WindowsFormsApp24\obj\Debug\main.Edit_ad.resources
+C:\Users\IDAN TOKAYER\Desktop\menu---users---signUp-GUI\WindowsFormsApp24\obj\Debug\main.stam.resources
+C:\Users\IDAN TOKAYER\Desktop\menu---users---signUp-GUI\WindowsFormsApp24\obj\Debug\main.main_manager_wnd.resources
+C:\Users\IDAN TOKAYER\Desktop\menu---users---signUp-GUI\WindowsFormsApp24\obj\Debug\MAIN_GUI_Mangaer_window.ma_views.newDish.resources
+C:\Users\IDAN TOKAYER\Desktop\Menu + MS\WindowsFormsApp24\bin\Debug\WindowsFormsApp24.exe.config
+C:\Users\IDAN TOKAYER\Desktop\Menu + MS\WindowsFormsApp24\bin\Debug\WindowsFormsApp24.exe
+C:\Users\IDAN TOKAYER\Desktop\Menu + MS\WindowsFormsApp24\bin\Debug\WindowsFormsApp24.pdb
+C:\Users\IDAN TOKAYER\Desktop\Menu + MS\WindowsFormsApp24\obj\Debug\menu_wnd.csprojAssemblyReference.cache
+C:\Users\IDAN TOKAYER\Desktop\Menu + MS\WindowsFormsApp24\obj\Debug\main.CreateDish.resources
+C:\Users\IDAN TOKAYER\Desktop\Menu + MS\WindowsFormsApp24\obj\Debug\main.CreateUser.resources
+C:\Users\IDAN TOKAYER\Desktop\Menu + MS\WindowsFormsApp24\obj\Debug\main.create_ad.resources
+C:\Users\IDAN TOKAYER\Desktop\Menu + MS\WindowsFormsApp24\obj\Debug\main.EditUser.resources
+C:\Users\IDAN TOKAYER\Desktop\Menu + MS\WindowsFormsApp24\obj\Debug\main.Edit_ad.resources
+C:\Users\IDAN TOKAYER\Desktop\Menu + MS\WindowsFormsApp24\obj\Debug\main.main_manager_wnd.resources
+C:\Users\IDAN TOKAYER\Desktop\Menu + MS\WindowsFormsApp24\obj\Debug\MAIN_GUI_Mangaer_window.ma_views.newDish.resources
+C:\Users\IDAN TOKAYER\Desktop\Menu + MS\WindowsFormsApp24\obj\Debug\main.stam.resources
+C:\Users\IDAN TOKAYER\Desktop\Menu + MS\WindowsFormsApp24\obj\Debug\main.Menu.resources
+C:\Users\IDAN TOKAYER\Desktop\Menu + MS\WindowsFormsApp24\obj\Debug\main.LoginScreen.resources
+C:\Users\IDAN TOKAYER\Desktop\Menu + MS\WindowsFormsApp24\obj\Debug\WindowsFormsApp24.Login_Screen.Login_Screen.Login_Screen.Properties.Resources.resources
+C:\Users\IDAN TOKAYER\Desktop\Menu + MS\WindowsFormsApp24\obj\Debug\Login_Screen.SignUp.resources
+C:\Users\IDAN TOKAYER\Desktop\Menu + MS\WindowsFormsApp24\obj\Debug\WindowsFormsApp24.Properties.Resources.resources
+C:\Users\IDAN TOKAYER\Desktop\Menu + MS\WindowsFormsApp24\obj\Debug\menu_wnd.csproj.GenerateResource.cache
+C:\Users\IDAN TOKAYER\Desktop\Menu + MS\WindowsFormsApp24\obj\Debug\menu_wnd.csproj.CoreCompileInputs.cache
+C:\Users\IDAN TOKAYER\Desktop\Menu + MS\WindowsFormsApp24\obj\Debug\WindowsFormsApp24.exe
+C:\Users\IDAN TOKAYER\Desktop\Menu + MS\WindowsFormsApp24\obj\Debug\WindowsFormsApp24.pdb
+C:\Users\user\Documents\GitHub\MS-Menu-LS\Menu + MS\WindowsFormsApp24\bin\Debug\WindowsFormsApp24.exe.config
+C:\Users\user\Documents\GitHub\MS-Menu-LS\Menu + MS\WindowsFormsApp24\bin\Debug\WindowsFormsApp24.exe
+C:\Users\user\Documents\GitHub\MS-Menu-LS\Menu + MS\WindowsFormsApp24\bin\Debug\WindowsFormsApp24.pdb
+C:\Users\user\Documents\GitHub\MS-Menu-LS\Menu + MS\WindowsFormsApp24\obj\Debug\menu_wnd.csprojAssemblyReference.cache
+C:\Users\user\Documents\GitHub\MS-Menu-LS\Menu + MS\WindowsFormsApp24\obj\Debug\main.CreateDish.resources
+C:\Users\user\Documents\GitHub\MS-Menu-LS\Menu + MS\WindowsFormsApp24\obj\Debug\main.CreateUser.resources
+C:\Users\user\Documents\GitHub\MS-Menu-LS\Menu + MS\WindowsFormsApp24\obj\Debug\main.create_ad.resources
+C:\Users\user\Documents\GitHub\MS-Menu-LS\Menu + MS\WindowsFormsApp24\obj\Debug\main.EditUser.resources
+C:\Users\user\Documents\GitHub\MS-Menu-LS\Menu + MS\WindowsFormsApp24\obj\Debug\main.Edit_ad.resources
+C:\Users\user\Documents\GitHub\MS-Menu-LS\Menu + MS\WindowsFormsApp24\obj\Debug\main.main_manager_wnd.resources
+C:\Users\user\Documents\GitHub\MS-Menu-LS\Menu + MS\WindowsFormsApp24\obj\Debug\MAIN_GUI_Mangaer_window.ma_views.newDish.resources
+C:\Users\user\Documents\GitHub\MS-Menu-LS\Menu + MS\WindowsFormsApp24\obj\Debug\main.stam.resources
+C:\Users\user\Documents\GitHub\MS-Menu-LS\Menu + MS\WindowsFormsApp24\obj\Debug\main.Menu.resources
+C:\Users\user\Documents\GitHub\MS-Menu-LS\Menu + MS\WindowsFormsApp24\obj\Debug\main.LoginScreen.resources
+C:\Users\user\Documents\GitHub\MS-Menu-LS\Menu + MS\WindowsFormsApp24\obj\Debug\WindowsFormsApp24.Login_Screen.Login_Screen.Login_Screen.Properties.Resources.resources
+C:\Users\user\Documents\GitHub\MS-Menu-LS\Menu + MS\WindowsFormsApp24\obj\Debug\Login_Screen.SignUp.resources
+C:\Users\user\Documents\GitHub\MS-Menu-LS\Menu + MS\WindowsFormsApp24\obj\Debug\WindowsFormsApp24.Properties.Resources.resources
+C:\Users\user\Documents\GitHub\MS-Menu-LS\Menu + MS\WindowsFormsApp24\obj\Debug\menu_wnd.csproj.GenerateResource.cache
+C:\Users\user\Documents\GitHub\MS-Menu-LS\Menu + MS\WindowsFormsApp24\obj\Debug\menu_wnd.csproj.CoreCompileInputs.cache
+C:\Users\user\Documents\GitHub\MS-Menu-LS\Menu + MS\WindowsFormsApp24\obj\Debug\WindowsFormsApp24.exe
+C:\Users\user\Documents\GitHub\MS-Menu-LS\Menu + MS\WindowsFormsApp24\obj\Debug\WindowsFormsApp24.pdb
+C:\Users\IDAN TOKAYER\Desktop\MS-Menu-LS\Menu + MS\WindowsFormsApp24\obj\Debug\menu_wnd.csprojAssemblyReference.cache
+C:\Users\IDAN TOKAYER\Desktop\MS-Menu-LS\Menu + MS\WindowsFormsApp24\obj\Debug\main.CreateDish.resources
+C:\Users\IDAN TOKAYER\Desktop\MS-Menu-LS\Menu + MS\WindowsFormsApp24\obj\Debug\main.CreateUser.resources
+C:\Users\IDAN TOKAYER\Desktop\MS-Menu-LS\Menu + MS\WindowsFormsApp24\obj\Debug\main.create_ad.resources
+C:\Users\IDAN TOKAYER\Desktop\MS-Menu-LS\Menu + MS\WindowsFormsApp24\obj\Debug\main.EditUser.resources
+C:\Users\IDAN TOKAYER\Desktop\MS-Menu-LS\Menu + MS\WindowsFormsApp24\obj\Debug\main.Edit_ad.resources
+C:\Users\IDAN TOKAYER\Desktop\MS-Menu-LS\Menu + MS\WindowsFormsApp24\obj\Debug\main.main_manager_wnd.resources
+C:\Users\IDAN TOKAYER\Desktop\MS-Menu-LS\Menu + MS\WindowsFormsApp24\obj\Debug\MAIN_GUI_Mangaer_window.ma_views.newDish.resources
+C:\Users\IDAN TOKAYER\Desktop\MS-Menu-LS\Menu + MS\WindowsFormsApp24\obj\Debug\main.stam.resources
+C:\Users\IDAN TOKAYER\Desktop\MS-Menu-LS\Menu + MS\WindowsFormsApp24\obj\Debug\main.Menu.resources
+C:\Users\IDAN TOKAYER\Desktop\MS-Menu-LS\Menu + MS\WindowsFormsApp24\obj\Debug\main.LoginScreen.resources
+C:\Users\IDAN TOKAYER\Desktop\MS-Menu-LS\Menu + MS\WindowsFormsApp24\obj\Debug\WindowsFormsApp24.Login_Screen.Login_Screen.Login_Screen.Properties.Resources.resources
+C:\Users\IDAN TOKAYER\Desktop\MS-Menu-LS\Menu + MS\WindowsFormsApp24\obj\Debug\Login_Screen.SignUp.resources
+C:\Users\IDAN TOKAYER\Desktop\MS-Menu-LS\Menu + MS\WindowsFormsApp24\obj\Debug\WindowsFormsApp24.Properties.Resources.resources
+C:\Users\IDAN TOKAYER\Desktop\MS-Menu-LS\Menu + MS\WindowsFormsApp24\obj\Debug\menu_wnd.csproj.GenerateResource.cache
+C:\Users\IDAN TOKAYER\Desktop\MS-Menu-LS\Menu + MS\WindowsFormsApp24\obj\Debug\menu_wnd.csproj.CoreCompileInputs.cache
+C:\Users\IDAN TOKAYER\Desktop\MS-Menu-LS\Menu + MS\WindowsFormsApp24\obj\Debug\WindowsFormsApp24.exe
+C:\Users\IDAN TOKAYER\Desktop\MS-Menu-LS\Menu + MS\WindowsFormsApp24\obj\Debug\WindowsFormsApp24.pdb
+C:\Users\IDAN TOKAYER\Desktop\MS-Menu-LS\Menu + MS\WindowsFormsApp24\bin\Debug\WindowsFormsApp24.exe.config
+C:\Users\IDAN TOKAYER\Desktop\MS-Menu-LS\Menu + MS\WindowsFormsApp24\bin\Debug\WindowsFormsApp24.exe
+C:\Users\IDAN TOKAYER\Desktop\MS-Menu-LS\Menu + MS\WindowsFormsApp24\bin\Debug\WindowsFormsApp24.pdb
+C:\Users\IDAN TOKAYER\Downloads\MS-Menu-LS\MS-Menu-LS\Menu + MS\WindowsFormsApp24\obj\Debug\menu_wnd.csprojAssemblyReference.cache
+C:\Users\IDAN TOKAYER\Downloads\MS-Menu-LS\MS-Menu-LS\Menu + MS\WindowsFormsApp24\obj\Debug\main.CreateDish.resources
+C:\Users\IDAN TOKAYER\Downloads\MS-Menu-LS\MS-Menu-LS\Menu + MS\WindowsFormsApp24\obj\Debug\main.CreateUser.resources
+C:\Users\IDAN TOKAYER\Downloads\MS-Menu-LS\MS-Menu-LS\Menu + MS\WindowsFormsApp24\obj\Debug\main.create_ad.resources
+C:\Users\IDAN TOKAYER\Downloads\MS-Menu-LS\MS-Menu-LS\Menu + MS\WindowsFormsApp24\obj\Debug\main.EditUser.resources
+C:\Users\IDAN TOKAYER\Downloads\MS-Menu-LS\MS-Menu-LS\Menu + MS\WindowsFormsApp24\obj\Debug\main.Edit_ad.resources
+C:\Users\IDAN TOKAYER\Downloads\MS-Menu-LS\MS-Menu-LS\Menu + MS\WindowsFormsApp24\obj\Debug\main.main_manager_wnd.resources
+C:\Users\IDAN TOKAYER\Downloads\MS-Menu-LS\MS-Menu-LS\Menu + MS\WindowsFormsApp24\obj\Debug\MAIN_GUI_Mangaer_window.ma_views.newDish.resources
+C:\Users\IDAN TOKAYER\Downloads\MS-Menu-LS\MS-Menu-LS\Menu + MS\WindowsFormsApp24\obj\Debug\main.stam.resources
+C:\Users\IDAN TOKAYER\Downloads\MS-Menu-LS\MS-Menu-LS\Menu + MS\WindowsFormsApp24\obj\Debug\main.Menu.resources
+C:\Users\IDAN TOKAYER\Downloads\MS-Menu-LS\MS-Menu-LS\Menu + MS\WindowsFormsApp24\obj\Debug\main.LoginScreen.resources
+C:\Users\IDAN TOKAYER\Downloads\MS-Menu-LS\MS-Menu-LS\Menu + MS\WindowsFormsApp24\obj\Debug\WindowsFormsApp24.Login_Screen.Login_Screen.Login_Screen.Properties.Resources.resources
+C:\Users\IDAN TOKAYER\Downloads\MS-Menu-LS\MS-Menu-LS\Menu + MS\WindowsFormsApp24\obj\Debug\Login_Screen.SignUp.resources
+C:\Users\IDAN TOKAYER\Downloads\MS-Menu-LS\MS-Menu-LS\Menu + MS\WindowsFormsApp24\obj\Debug\WindowsFormsApp24.Properties.Resources.resources
+C:\Users\IDAN TOKAYER\Downloads\MS-Menu-LS\MS-Menu-LS\Menu + MS\WindowsFormsApp24\obj\Debug\menu_wnd.csproj.GenerateResource.cache
+C:\Users\IDAN TOKAYER\Downloads\MS-Menu-LS\MS-Menu-LS\Menu + MS\WindowsFormsApp24\obj\Debug\menu_wnd.csproj.CoreCompileInputs.cache
+C:\Users\IDAN TOKAYER\Downloads\MS-Menu-LS\MS-Menu-LS\Menu + MS\WindowsFormsApp24\obj\Debug\WindowsFormsApp24.exe
+C:\Users\IDAN TOKAYER\Downloads\MS-Menu-LS\MS-Menu-LS\Menu + MS\WindowsFormsApp24\obj\Debug\WindowsFormsApp24.pdb
+C:\Users\IDAN TOKAYER\Downloads\MS-Menu-LS\MS-Menu-LS\Menu + MS\WindowsFormsApp24\bin\Debug\WindowsFormsApp24.exe.config
+C:\Users\IDAN TOKAYER\Downloads\MS-Menu-LS\MS-Menu-LS\Menu + MS\WindowsFormsApp24\bin\Debug\WindowsFormsApp24.exe
+C:\Users\IDAN TOKAYER\Downloads\MS-Menu-LS\MS-Menu-LS\Menu + MS\WindowsFormsApp24\bin\Debug\WindowsFormsApp24.pdb
+C:\Users\IDAN TOKAYER\Downloads\MS-Menu-LS Done\MS-Menu-LS\Menu + MS\WindowsFormsApp24\bin\Debug\WindowsFormsApp24.exe.config
+C:\Users\IDAN TOKAYER\Downloads\MS-Menu-LS Done\MS-Menu-LS\Menu + MS\WindowsFormsApp24\bin\Debug\WindowsFormsApp24.exe
+C:\Users\IDAN TOKAYER\Downloads\MS-Menu-LS Done\MS-Menu-LS\Menu + MS\WindowsFormsApp24\bin\Debug\WindowsFormsApp24.pdb
+C:\Users\IDAN TOKAYER\Downloads\MS-Menu-LS Done\MS-Menu-LS\Menu + MS\WindowsFormsApp24\obj\Debug\menu_wnd.csprojAssemblyReference.cache
+C:\Users\IDAN TOKAYER\Downloads\MS-Menu-LS Done\MS-Menu-LS\Menu + MS\WindowsFormsApp24\obj\Debug\main.CreateDish.resources
+C:\Users\IDAN TOKAYER\Downloads\MS-Menu-LS Done\MS-Menu-LS\Menu + MS\WindowsFormsApp24\obj\Debug\main.CreateUser.resources
+C:\Users\IDAN TOKAYER\Downloads\MS-Menu-LS Done\MS-Menu-LS\Menu + MS\WindowsFormsApp24\obj\Debug\main.create_ad.resources
+C:\Users\IDAN TOKAYER\Downloads\MS-Menu-LS Done\MS-Menu-LS\Menu + MS\WindowsFormsApp24\obj\Debug\main.EditUser.resources
+C:\Users\IDAN TOKAYER\Downloads\MS-Menu-LS Done\MS-Menu-LS\Menu + MS\WindowsFormsApp24\obj\Debug\main.Edit_ad.resources
+C:\Users\IDAN TOKAYER\Downloads\MS-Menu-LS Done\MS-Menu-LS\Menu + MS\WindowsFormsApp24\obj\Debug\main.main_manager_wnd.resources
+C:\Users\IDAN TOKAYER\Downloads\MS-Menu-LS Done\MS-Menu-LS\Menu + MS\WindowsFormsApp24\obj\Debug\MAIN_GUI_Mangaer_window.ma_views.newDish.resources
+C:\Users\IDAN TOKAYER\Downloads\MS-Menu-LS Done\MS-Menu-LS\Menu + MS\WindowsFormsApp24\obj\Debug\main.stam.resources
+C:\Users\IDAN TOKAYER\Downloads\MS-Menu-LS Done\MS-Menu-LS\Menu + MS\WindowsFormsApp24\obj\Debug\main.Menu.resources
+C:\Users\IDAN TOKAYER\Downloads\MS-Menu-LS Done\MS-Menu-LS\Menu + MS\WindowsFormsApp24\obj\Debug\main.LoginScreen.resources
+C:\Users\IDAN TOKAYER\Downloads\MS-Menu-LS Done\MS-Menu-LS\Menu + MS\WindowsFormsApp24\obj\Debug\WindowsFormsApp24.Login_Screen.Login_Screen.Login_Screen.Properties.Resources.resources
+C:\Users\IDAN TOKAYER\Downloads\MS-Menu-LS Done\MS-Menu-LS\Menu + MS\WindowsFormsApp24\obj\Debug\Login_Screen.SignUp.resources
+C:\Users\IDAN TOKAYER\Downloads\MS-Menu-LS Done\MS-Menu-LS\Menu + MS\WindowsFormsApp24\obj\Debug\WindowsFormsApp24.Properties.Resources.resources
+C:\Users\IDAN TOKAYER\Downloads\MS-Menu-LS Done\MS-Menu-LS\Menu + MS\WindowsFormsApp24\obj\Debug\menu_wnd.csproj.GenerateResource.cache
+C:\Users\IDAN TOKAYER\Downloads\MS-Menu-LS Done\MS-Menu-LS\Menu + MS\WindowsFormsApp24\obj\Debug\menu_wnd.csproj.CoreCompileInputs.cache
+C:\Users\IDAN TOKAYER\Downloads\MS-Menu-LS Done\MS-Menu-LS\Menu + MS\WindowsFormsApp24\obj\Debug\WindowsFormsApp24.exe
+C:\Users\IDAN TOKAYER\Downloads\MS-Menu-LS Done\MS-Menu-LS\Menu + MS\WindowsFormsApp24\obj\Debug\WindowsFormsApp24.pdb
+C:\Users\User\Desktop\main-done-v1-master\main-done-v1\MS-Menu-LS Done\MS-Menu-LS\Menu + MS\WindowsFormsApp24\bin\Debug\WindowsFormsApp24.exe.config
+C:\Users\User\Desktop\main-done-v1-master\main-done-v1\MS-Menu-LS Done\MS-Menu-LS\Menu + MS\WindowsFormsApp24\bin\Debug\WindowsFormsApp24.exe
+C:\Users\User\Desktop\main-done-v1-master\main-done-v1\MS-Menu-LS Done\MS-Menu-LS\Menu + MS\WindowsFormsApp24\bin\Debug\WindowsFormsApp24.pdb
+C:\Users\User\Desktop\main-done-v1-master\main-done-v1\MS-Menu-LS Done\MS-Menu-LS\Menu + MS\WindowsFormsApp24\obj\Debug\menu_wnd.csprojAssemblyReference.cache
+C:\Users\User\Desktop\main-done-v1-master\main-done-v1\MS-Menu-LS Done\MS-Menu-LS\Menu + MS\WindowsFormsApp24\obj\Debug\main.CreateDish.resources
+C:\Users\User\Desktop\main-done-v1-master\main-done-v1\MS-Menu-LS Done\MS-Menu-LS\Menu + MS\WindowsFormsApp24\obj\Debug\main.CreateUser.resources
+C:\Users\User\Desktop\main-done-v1-master\main-done-v1\MS-Menu-LS Done\MS-Menu-LS\Menu + MS\WindowsFormsApp24\obj\Debug\main.create_ad.resources
+C:\Users\User\Desktop\main-done-v1-master\main-done-v1\MS-Menu-LS Done\MS-Menu-LS\Menu + MS\WindowsFormsApp24\obj\Debug\main.EditUser.resources
+C:\Users\User\Desktop\main-done-v1-master\main-done-v1\MS-Menu-LS Done\MS-Menu-LS\Menu + MS\WindowsFormsApp24\obj\Debug\main.Edit_ad.resources
+C:\Users\User\Desktop\main-done-v1-master\main-done-v1\MS-Menu-LS Done\MS-Menu-LS\Menu + MS\WindowsFormsApp24\obj\Debug\main.main_manager_wnd.resources
+C:\Users\User\Desktop\main-done-v1-master\main-done-v1\MS-Menu-LS Done\MS-Menu-LS\Menu + MS\WindowsFormsApp24\obj\Debug\MAIN_GUI_Mangaer_window.ma_views.newDish.resources
+C:\Users\User\Desktop\main-done-v1-master\main-done-v1\MS-Menu-LS Done\MS-Menu-LS\Menu + MS\WindowsFormsApp24\obj\Debug\main.stam.resources
+C:\Users\User\Desktop\main-done-v1-master\main-done-v1\MS-Menu-LS Done\MS-Menu-LS\Menu + MS\WindowsFormsApp24\obj\Debug\main.Menu.resources
+C:\Users\User\Desktop\main-done-v1-master\main-done-v1\MS-Menu-LS Done\MS-Menu-LS\Menu + MS\WindowsFormsApp24\obj\Debug\main.LoginScreen.resources
+C:\Users\User\Desktop\main-done-v1-master\main-done-v1\MS-Menu-LS Done\MS-Menu-LS\Menu + MS\WindowsFormsApp24\obj\Debug\WindowsFormsApp24.Login_Screen.Login_Screen.Login_Screen.Properties.Resources.resources
+C:\Users\User\Desktop\main-done-v1-master\main-done-v1\MS-Menu-LS Done\MS-Menu-LS\Menu + MS\WindowsFormsApp24\obj\Debug\Login_Screen.SignUp.resources
+C:\Users\User\Desktop\main-done-v1-master\main-done-v1\MS-Menu-LS Done\MS-Menu-LS\Menu + MS\WindowsFormsApp24\obj\Debug\WindowsFormsApp24.Properties.Resources.resources
+C:\Users\User\Desktop\main-done-v1-master\main-done-v1\MS-Menu-LS Done\MS-Menu-LS\Menu + MS\WindowsFormsApp24\obj\Debug\menu_wnd.csproj.GenerateResource.cache
+C:\Users\User\Desktop\main-done-v1-master\main-done-v1\MS-Menu-LS Done\MS-Menu-LS\Menu + MS\WindowsFormsApp24\obj\Debug\menu_wnd.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\main-done-v1-master\main-done-v1\MS-Menu-LS Done\MS-Menu-LS\Menu + MS\WindowsFormsApp24\obj\Debug\WindowsFormsApp24.exe
+C:\Users\User\Desktop\main-done-v1-master\main-done-v1\MS-Menu-LS Done\MS-Menu-LS\Menu + MS\WindowsFormsApp24\obj\Debug\WindowsFormsApp24.pdb
+C:\Users\USER\Desktop\הנדסת תוכנה\שנה ב\פרוייקט\MS-Menu-LS Done\MS-Menu-LS\Menu + MS\WindowsFormsApp24\bin\Debug\WindowsFormsApp24.exe.config
+C:\Users\USER\Desktop\הנדסת תוכנה\שנה ב\פרוייקט\MS-Menu-LS Done\MS-Menu-LS\Menu + MS\WindowsFormsApp24\bin\Debug\WindowsFormsApp24.exe
+C:\Users\USER\Desktop\הנדסת תוכנה\שנה ב\פרוייקט\MS-Menu-LS Done\MS-Menu-LS\Menu + MS\WindowsFormsApp24\bin\Debug\WindowsFormsApp24.pdb
+C:\Users\USER\Desktop\הנדסת תוכנה\שנה ב\פרוייקט\MS-Menu-LS Done\MS-Menu-LS\Menu + MS\WindowsFormsApp24\obj\Debug\menu_wnd.csprojAssemblyReference.cache
+C:\Users\USER\Desktop\הנדסת תוכנה\שנה ב\פרוייקט\MS-Menu-LS Done\MS-Menu-LS\Menu + MS\WindowsFormsApp24\obj\Debug\main.CreateDish.resources
+C:\Users\USER\Desktop\הנדסת תוכנה\שנה ב\פרוייקט\MS-Menu-LS Done\MS-Menu-LS\Menu + MS\WindowsFormsApp24\obj\Debug\main.CreateUser.resources
+C:\Users\USER\Desktop\הנדסת תוכנה\שנה ב\פרוייקט\MS-Menu-LS Done\MS-Menu-LS\Menu + MS\WindowsFormsApp24\obj\Debug\main.create_ad.resources
+C:\Users\USER\Desktop\הנדסת תוכנה\שנה ב\פרוייקט\MS-Menu-LS Done\MS-Menu-LS\Menu + MS\WindowsFormsApp24\obj\Debug\main.EditUser.resources
+C:\Users\USER\Desktop\הנדסת תוכנה\שנה ב\פרוייקט\MS-Menu-LS Done\MS-Menu-LS\Menu + MS\WindowsFormsApp24\obj\Debug\main.Edit_ad.resources
+C:\Users\USER\Desktop\הנדסת תוכנה\שנה ב\פרוייקט\MS-Menu-LS Done\MS-Menu-LS\Menu + MS\WindowsFormsApp24\obj\Debug\main.main_manager_wnd.resources
+C:\Users\USER\Desktop\הנדסת תוכנה\שנה ב\פרוייקט\MS-Menu-LS Done\MS-Menu-LS\Menu + MS\WindowsFormsApp24\obj\Debug\MAIN_GUI_Mangaer_window.ma_views.newDish.resources
+C:\Users\USER\Desktop\הנדסת תוכנה\שנה ב\פרוייקט\MS-Menu-LS Done\MS-Menu-LS\Menu + MS\WindowsFormsApp24\obj\Debug\main.stam.resources
+C:\Users\USER\Desktop\הנדסת תוכנה\שנה ב\פרוייקט\MS-Menu-LS Done\MS-Menu-LS\Menu + MS\WindowsFormsApp24\obj\Debug\main.Menu.resources
+C:\Users\USER\Desktop\הנדסת תוכנה\שנה ב\פרוייקט\MS-Menu-LS Done\MS-Menu-LS\Menu + MS\WindowsFormsApp24\obj\Debug\main.LoginScreen.resources
+C:\Users\USER\Desktop\הנדסת תוכנה\שנה ב\פרוייקט\MS-Menu-LS Done\MS-Menu-LS\Menu + MS\WindowsFormsApp24\obj\Debug\WindowsFormsApp24.Login_Screen.Login_Screen.Login_Screen.Properties.Resources.resources
+C:\Users\USER\Desktop\הנדסת תוכנה\שנה ב\פרוייקט\MS-Menu-LS Done\MS-Menu-LS\Menu + MS\WindowsFormsApp24\obj\Debug\Login_Screen.SignUp.resources
+C:\Users\USER\Desktop\הנדסת תוכנה\שנה ב\פרוייקט\MS-Menu-LS Done\MS-Menu-LS\Menu + MS\WindowsFormsApp24\obj\Debug\WindowsFormsApp24.Properties.Resources.resources
+C:\Users\USER\Desktop\הנדסת תוכנה\שנה ב\פרוייקט\MS-Menu-LS Done\MS-Menu-LS\Menu + MS\WindowsFormsApp24\obj\Debug\menu_wnd.csproj.GenerateResource.cache
+C:\Users\USER\Desktop\הנדסת תוכנה\שנה ב\פרוייקט\MS-Menu-LS Done\MS-Menu-LS\Menu + MS\WindowsFormsApp24\obj\Debug\menu_wnd.csproj.CoreCompileInputs.cache
+C:\Users\USER\Desktop\הנדסת תוכנה\שנה ב\פרוייקט\MS-Menu-LS Done\MS-Menu-LS\Menu + MS\WindowsFormsApp24\obj\Debug\WindowsFormsApp24.exe
+C:\Users\USER\Desktop\הנדסת תוכנה\שנה ב\פרוייקט\MS-Menu-LS Done\MS-Menu-LS\Menu + MS\WindowsFormsApp24\obj\Debug\WindowsFormsApp24.pdb
+C:\Users\User\Desktop\MS-Menu-LS Done\MS-Menu-LS\Menu + MS\WindowsFormsApp24\bin\Debug\WindowsFormsApp24.exe.config
+C:\Users\User\Desktop\MS-Menu-LS Done\MS-Menu-LS\Menu + MS\WindowsFormsApp24\bin\Debug\WindowsFormsApp24.exe
+C:\Users\User\Desktop\MS-Menu-LS Done\MS-Menu-LS\Menu + MS\WindowsFormsApp24\bin\Debug\WindowsFormsApp24.pdb
+C:\Users\User\Desktop\MS-Menu-LS Done\MS-Menu-LS\Menu + MS\WindowsFormsApp24\obj\Debug\menu_wnd.csprojAssemblyReference.cache
+C:\Users\User\Desktop\MS-Menu-LS Done\MS-Menu-LS\Menu + MS\WindowsFormsApp24\obj\Debug\main.CreateDish.resources
+C:\Users\User\Desktop\MS-Menu-LS Done\MS-Menu-LS\Menu + MS\WindowsFormsApp24\obj\Debug\main.CreateUser.resources
+C:\Users\User\Desktop\MS-Menu-LS Done\MS-Menu-LS\Menu + MS\WindowsFormsApp24\obj\Debug\main.create_ad.resources
+C:\Users\User\Desktop\MS-Menu-LS Done\MS-Menu-LS\Menu + MS\WindowsFormsApp24\obj\Debug\main.EditUser.resources
+C:\Users\User\Desktop\MS-Menu-LS Done\MS-Menu-LS\Menu + MS\WindowsFormsApp24\obj\Debug\main.Edit_ad.resources
+C:\Users\User\Desktop\MS-Menu-LS Done\MS-Menu-LS\Menu + MS\WindowsFormsApp24\obj\Debug\main.main_manager_wnd.resources
+C:\Users\User\Desktop\MS-Menu-LS Done\MS-Menu-LS\Menu + MS\WindowsFormsApp24\obj\Debug\MAIN_GUI_Mangaer_window.ma_views.newDish.resources
+C:\Users\User\Desktop\MS-Menu-LS Done\MS-Menu-LS\Menu + MS\WindowsFormsApp24\obj\Debug\main.stam.resources
+C:\Users\User\Desktop\MS-Menu-LS Done\MS-Menu-LS\Menu + MS\WindowsFormsApp24\obj\Debug\main.Menu.resources
+C:\Users\User\Desktop\MS-Menu-LS Done\MS-Menu-LS\Menu + MS\WindowsFormsApp24\obj\Debug\main.LoginScreen.resources
+C:\Users\User\Desktop\MS-Menu-LS Done\MS-Menu-LS\Menu + MS\WindowsFormsApp24\obj\Debug\WindowsFormsApp24.Login_Screen.Login_Screen.Login_Screen.Properties.Resources.resources
+C:\Users\User\Desktop\MS-Menu-LS Done\MS-Menu-LS\Menu + MS\WindowsFormsApp24\obj\Debug\Login_Screen.SignUp.resources
+C:\Users\User\Desktop\MS-Menu-LS Done\MS-Menu-LS\Menu + MS\WindowsFormsApp24\obj\Debug\WindowsFormsApp24.Properties.Resources.resources
+C:\Users\User\Desktop\MS-Menu-LS Done\MS-Menu-LS\Menu + MS\WindowsFormsApp24\obj\Debug\menu_wnd.csproj.GenerateResource.cache
+C:\Users\User\Desktop\MS-Menu-LS Done\MS-Menu-LS\Menu + MS\WindowsFormsApp24\obj\Debug\menu_wnd.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\MS-Menu-LS Done\MS-Menu-LS\Menu + MS\WindowsFormsApp24\obj\Debug\WindowsFormsApp24.exe
+C:\Users\User\Desktop\MS-Menu-LS Done\MS-Menu-LS\Menu + MS\WindowsFormsApp24\obj\Debug\WindowsFormsApp24.pdb
+C:\Users\userr\Documents\MAINFINAL\MS-Menu-LS Done\MS-Menu-LS\Menu + MS\WindowsFormsApp24\bin\Debug\WindowsFormsApp24.exe.config
+C:\Users\userr\Documents\MAINFINAL\MS-Menu-LS Done\MS-Menu-LS\Menu + MS\WindowsFormsApp24\bin\Debug\WindowsFormsApp24.exe
+C:\Users\userr\Documents\MAINFINAL\MS-Menu-LS Done\MS-Menu-LS\Menu + MS\WindowsFormsApp24\bin\Debug\WindowsFormsApp24.pdb
+C:\Users\userr\Documents\MAINFINAL\MS-Menu-LS Done\MS-Menu-LS\Menu + MS\WindowsFormsApp24\obj\Debug\menu_wnd.csprojAssemblyReference.cache
+C:\Users\userr\Documents\MAINFINAL\MS-Menu-LS Done\MS-Menu-LS\Menu + MS\WindowsFormsApp24\obj\Debug\main.Menu.resources
+C:\Users\userr\Documents\MAINFINAL\MS-Menu-LS Done\MS-Menu-LS\Menu + MS\WindowsFormsApp24\obj\Debug\main.LoginScreen.resources
+C:\Users\userr\Documents\MAINFINAL\MS-Menu-LS Done\MS-Menu-LS\Menu + MS\WindowsFormsApp24\obj\Debug\WindowsFormsApp24.Login_Screen.Login_Screen.Login_Screen.Properties.Resources.resources
+C:\Users\userr\Documents\MAINFINAL\MS-Menu-LS Done\MS-Menu-LS\Menu + MS\WindowsFormsApp24\obj\Debug\Login_Screen.SignUp.resources
+C:\Users\userr\Documents\MAINFINAL\MS-Menu-LS Done\MS-Menu-LS\Menu + MS\WindowsFormsApp24\obj\Debug\WindowsFormsApp24.Properties.Resources.resources
+C:\Users\userr\Documents\MAINFINAL\MS-Menu-LS Done\MS-Menu-LS\Menu + MS\WindowsFormsApp24\obj\Debug\menu_wnd.csproj.GenerateResource.cache
+C:\Users\userr\Documents\MAINFINAL\MS-Menu-LS Done\MS-Menu-LS\Menu + MS\WindowsFormsApp24\obj\Debug\menu_wnd.csproj.CoreCompileInputs.cache
+C:\Users\userr\Documents\MAINFINAL\MS-Menu-LS Done\MS-Menu-LS\Menu + MS\WindowsFormsApp24\obj\Debug\WindowsFormsApp24.exe
+C:\Users\userr\Documents\MAINFINAL\MS-Menu-LS Done\MS-Menu-LS\Menu + MS\WindowsFormsApp24\obj\Debug\WindowsFormsApp24.pdb
+C:\Users\userr\Documents\MAINFINAL\MS-Menu-LS Done\MS-Menu-LS\Menu + MS\WindowsFormsApp24\obj\Debug\MAIN_GUI_Mangaer_window.ma_views.CreateDish.resources
+C:\Users\userr\Documents\MAINFINAL\MS-Menu-LS Done\MS-Menu-LS\Menu + MS\WindowsFormsApp24\obj\Debug\MAIN_GUI_Mangaer_window.ma_views.CreateUser.resources
+C:\Users\userr\Documents\MAINFINAL\MS-Menu-LS Done\MS-Menu-LS\Menu + MS\WindowsFormsApp24\obj\Debug\MAIN_GUI_Mangaer_window.ma_views.create_ad.resources
+C:\Users\userr\Documents\MAINFINAL\MS-Menu-LS Done\MS-Menu-LS\Menu + MS\WindowsFormsApp24\obj\Debug\MAIN_GUI_Mangaer_window.ma_views.EditUser.resources
+C:\Users\userr\Documents\MAINFINAL\MS-Menu-LS Done\MS-Menu-LS\Menu + MS\WindowsFormsApp24\obj\Debug\MAIN_GUI_Mangaer_window.ma_views.Edit_ad.resources
+C:\Users\userr\Documents\MAINFINAL\MS-Menu-LS Done\MS-Menu-LS\Menu + MS\WindowsFormsApp24\obj\Debug\MAIN_GUI_Mangaer_window.ma_views.Edit_Dish.resources
+C:\Users\userr\Documents\MAINFINAL\MS-Menu-LS Done\MS-Menu-LS\Menu + MS\WindowsFormsApp24\obj\Debug\MAIN_GUI_Mangaer_window.main_manager_wnd.resources
+C:\Users\userr\Documents\MAINFINAL\MS-Menu-LS Done\MS-Menu-LS\Menu + MS\WindowsFormsApp24\obj\Debug\MAIN_GUI_Mangaer_window.ma_views.stam.resources
+C:\Users\userr\Documents\MAINFINAL\MS-Menu-LS Done\MS-Menu-LS\Menu + MS\WindowsFormsApp24\bin\Debug\Nustache.Core.dll
+C:\Users\userr\Documents\MAINFINAL\MS-Menu-LS Done\MS-Menu-LS\Menu + MS\WindowsFormsApp24\obj\Debug\menu_wnd.csproj.CopyComplete
