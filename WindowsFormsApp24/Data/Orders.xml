@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Orders>
+  <Order>
+    <Name>Morning Steak</Name>
+    <Type>Appetizer</Type>
+    <Price>200</Price>
+    <Size>5</Size>
+    <Description>Delicus morning steak</Description>
+    <Image>C:\Users\userr\Pictures\test.jpg</Image>
+  </Order>
+  <Order>
+    <IdOrder>1519709340</IdOrder>
+    <user>main.RegisteredCustomers</user>
+    <dishes>  Morning Steak Some Others stuff</dishes>
+    <timer>System.Diagnostics.Stopwatch</timer>
+    <SeatOrGo>Inside</SeatOrGo>
+    <TableBnum>2146459138</TableBnum>
+    <price>201</price>
+  </Order>
+  <Order>
+    <IdOrder>2015376180</IdOrder>
+    <user>main.RegisteredCustomers</user>
+    <dishes>  Morning Steak Some Others stuff</dishes>
+    <timer>System.Diagnostics.Stopwatch</timer>
+    <SeatOrGo>Inside</SeatOrGo>
+    <TableBnum>1838330589</TableBnum>
+    <price>201</price>
+  </Order>
+  <Order>
+    <IdOrder>1891640341</IdOrder>
+    <user>main.RegisteredCustomers</user>
+    <dishes>  Morning Steak Dish2 Dish2</dishes>
+    <timer>System.Diagnostics.Stopwatch</timer>
+    <SeatOrGo>Inside</SeatOrGo>
+    <TableBnum>2121746180</TableBnum>
+    <price>9101</price>
+  </Order>
+  <Order>
+    <IdOrder>2059130715</IdOrder>
+    <user>main.RegisteredCustomers</user>
+    <dishes>  Morning Steak Dish2 Dish2 Dish4 Dish4</dishes>
+    <timer>System.Diagnostics.Stopwatch</timer>
+    <SeatOrGo>Inside</SeatOrGo>
+    <TableBnum>541244578</TableBnum>
+    <ClinetRequest>i want eat</ClinetRequest>
+    <Price>9103</Price>
+  </Order>
+  <Order>
+    <IdOrder>39186671</IdOrder>
+    <user>main.RegisteredCustomers</user>
+    <dishes>  Morning Steak Dish2 Dish2 Some Others stuff Morning Steak</dishes>
+    <timer>System.Diagnostics.Stopwatch</timer>
+    <SeatOrGo>Inside</SeatOrGo>
+    <TableBnum>488568170</TableBnum>
+    <ClinetRequest>XZZX</ClinetRequest>
+    <Price>9302</Price>
+  </Order>
+  <Order>
+    <IdOrder>1288925753</IdOrder>
+    <user>main.RegisteredCustomers</user>
+    <dishes></dishes>
+    <timer>System.Diagnostics.Stopwatch</timer>
+    <SeatOrGo>Inside</SeatOrGo>
+    <TableBnum>1938417680</TableBnum>
+    <ClinetRequest />
+    <Price>0</Price>
+  </Order>
+  <Order>
+    <IdOrder>378505960</IdOrder>
+    <user>main.RegisteredCustomers</user>
+    <dishes>  Dish1 Dish13 Dish6 Dish7</dishes>
+    <timer>2019-06-08T11:31:01.0755427+03:00</timer>
+    <SeatOrGo>Inside</SeatOrGo>
+    <TableBnum>1868520885</TableBnum>
+    <ClinetRequest>assasasa</ClinetRequest>
+    <Price>203</Price>
+  </Order>
+  <Order>
+    <IdOrder>1178464462</IdOrder>
+    <user>main.RegisteredCustomers</user>
+    <dishes>  Dish1 Dish8</dishes>
+    <TimeOrder>2019-06-08T11:34:47.6786682+03:00</TimeOrder>
+    <SeatOrGo>Inside</SeatOrGo>
+    <TableBnum>1191440752</TableBnum>
+    <ClinetRequest>i want drink</ClinetRequest>
+    <Price>201</Price>
+  </Order>
+</Orders>

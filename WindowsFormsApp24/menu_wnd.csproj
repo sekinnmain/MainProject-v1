@@ -1,0 +1,257 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{3B04F998-7AF8-4A66-8A4B-72654C13B017}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>WindowsFormsApp24</RootNamespace>
+    <AssemblyName>WindowsFormsApp24</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="controller\Advertisement.cs" />
+    <Compile Include="controller\Dish.cs" />
+    <Compile Include="controller\Feedback.cs" />
+    <Compile Include="controller\FolderWatcher.cs" />
+    <Compile Include="controller\Mailer.cs" />
+    <Compile Include="controller\MailingList.cs" />
+    <Compile Include="controller\StockManagement.cs" />
+    <Compile Include="controller\User.cs" />
+    <Compile Include="controller\XmlParser.cs" />
+    <Compile Include="controller\WriteXmlFile.cs" />
+    <Compile Include="controller\Employee.cs" />
+    <Compile Include="Login Screen\Login Screen\Login Screen\LoginScreen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login Screen\Login Screen\Login Screen\LoginScreen.Designer.cs">
+      <DependentUpon>LoginScreen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="controller\ManagerUser.cs" />
+    <Compile Include="Login Screen\Login Screen\Login Screen\obj\Debug\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" />
+    <Compile Include="Login Screen\Login Screen\Login Screen\obj\Debug\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" />
+    <Compile Include="Login Screen\Login Screen\Login Screen\obj\Debug\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" />
+    <Compile Include="Login Screen\Login Screen\Login Screen\Properties\Resources.Designer.cs" />
+    <Compile Include="Login Screen\Login Screen\Login Screen\Properties\Settings.Designer.cs" />
+    <Compile Include="controller\RegisteredCustomers.cs" />
+    <Compile Include="Login Screen\Login Screen\Login Screen\SignUp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login Screen\Login Screen\Login Screen\SignUp.Designer.cs">
+      <DependentUpon>SignUp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="controller\VipCustomer.cs" />
+    <Compile Include="controller\XmlLoader.cs" />
+    <Compile Include="ManagerService\CreateDish.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ManagerService\CreateDish.designer.cs">
+      <DependentUpon>CreateDish.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ManagerService\CreateUser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ManagerService\CreateUser.designer.cs">
+      <DependentUpon>CreateUser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ManagerService\create_ad.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ManagerService\create_ad.designer.cs">
+      <DependentUpon>create_ad.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ManagerService\EditUser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ManagerService\EditUser.designer.cs">
+      <DependentUpon>EditUser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ManagerService\Edit_ad.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ManagerService\Edit_ad.designer.cs">
+      <DependentUpon>Edit_ad.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ManagerService\main_manager_wnd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ManagerService\main_manager_wnd.designer.cs">
+      <DependentUpon>main_manager_wnd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ManagerService\newDish.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ManagerService\newDish.designer.cs">
+      <DependentUpon>newDish.cs</DependentUpon>
+    </Compile>
+    <Compile Include="controller\OrderService.cs" />
+    <Compile Include="controller\Pay.cs" />
+    <Compile Include="ManagerService\stam.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ManagerService\stam.designer.cs">
+      <DependentUpon>stam.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Menu\Menu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Menu\Menu.Designer.cs">
+      <DependentUpon>Menu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProgramMain.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="ManagerService\CreateDish.resx">
+      <DependentUpon>CreateDish.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ManagerService\CreateUser.resx">
+      <DependentUpon>CreateUser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ManagerService\create_ad.resx">
+      <DependentUpon>create_ad.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ManagerService\EditUser.resx">
+      <DependentUpon>EditUser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ManagerService\Edit_ad.resx">
+      <DependentUpon>Edit_ad.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ManagerService\main_manager_wnd.resx">
+      <DependentUpon>main_manager_wnd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ManagerService\newDish.resx">
+      <DependentUpon>newDish.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ManagerService\stam.resx">
+      <DependentUpon>stam.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Menu\Menu.resx">
+      <DependentUpon>Menu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login Screen\Login Screen\Login Screen\LoginScreen.resx">
+      <DependentUpon>LoginScreen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login Screen\Login Screen\Login Screen\obj\Debug\Login_Screen.LoginScreen.resources" />
+    <EmbeddedResource Include="Login Screen\Login Screen\Login Screen\obj\Debug\Login_Screen.Properties.Resources.resources" />
+    <EmbeddedResource Include="Login Screen\Login Screen\Login Screen\obj\Debug\Login_Screen.SignUp.resources" />
+    <EmbeddedResource Include="Login Screen\Login Screen\Login Screen\Properties\Resources.resx" />
+    <EmbeddedResource Include="Login Screen\Login Screen\Login Screen\SignUp.resx">
+      <DependentUpon>SignUp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Login Screen\Login Screen\.vs\Login Screen\v15\.suo" />
+    <None Include="Login Screen\Login Screen\.vs\Login Screen\v15\Server\sqlite3\db.lock" />
+    <None Include="Login Screen\Login Screen\.vs\Login Screen\v15\Server\sqlite3\storage.ide" />
+    <None Include="Login Screen\Login Screen\.vs\Login Screen\v15\Server\sqlite3\storage.ide-shm" />
+    <None Include="Login Screen\Login Screen\.vs\Login Screen\v15\Server\sqlite3\storage.ide-wal" />
+    <None Include="Login Screen\Login Screen\Login Screen\App.config" />
+    <None Include="Login Screen\Login Screen\Login Screen\bin\Debug\Login Screen.exe.config" />
+    <None Include="Login Screen\Login Screen\Login Screen\obj\Debug\DesignTimeResolveAssemblyReferences.cache" />
+    <None Include="Login Screen\Login Screen\Login Screen\obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <None Include="Login Screen\Login Screen\Login Screen\obj\Debug\Login Screen.csproj.CoreCompileInputs.cache" />
+    <None Include="Login Screen\Login Screen\Login Screen\obj\Debug\Login Screen.csproj.GenerateResource.cache" />
+    <None Include="Login Screen\Login Screen\Login Screen\obj\Debug\Login Screen.csprojAssemblyReference.cache" />
+    <None Include="Login Screen\Login Screen\Login Screen\Properties\Settings.settings" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Untitled-1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\UpButton.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Untitled-11.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Untitled-12.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\upButtonChoseDish.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Untitled-7.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\editdishUpButton.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Data\Orders.xml" />
+    <Content Include="Data\Dishes.xml" />
+    <Content Include="Login Screen\Login Screen\Login Screen.sln" />
+    <Content Include="Login Screen\Login Screen\Login Screen\bin\Debug\Login Screen.exe" />
+    <Content Include="Login Screen\Login Screen\Login Screen\bin\Debug\Login Screen.pdb" />
+    <Content Include="Data\VipUsers.xml" />
+    <Content Include="Login Screen\Login Screen\Login Screen\Login Screen.csproj" />
+    <Content Include="Login Screen\Login Screen\Login Screen\obj\Debug\Login Screen.csproj.FileListAbsolute.txt" />
+    <Content Include="Login Screen\Login Screen\Login Screen\obj\Debug\Login Screen.exe" />
+    <Content Include="Login Screen\Login Screen\Login Screen\obj\Debug\Login Screen.pdb" />
+    <Content Include="ManagerService\MAIN_GUI_Mangaer_window.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Login Screen\Login Screen\Login Screen\bin\Release\" />
+    <Folder Include="Login Screen\Login Screen\Login Screen\Data\" />
+    <Folder Include="Login Screen\Login Screen\Login Screen\obj\Debug\TempPE\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
